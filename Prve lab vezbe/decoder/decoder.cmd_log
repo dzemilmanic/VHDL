@@ -1,0 +1,13 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Prve pokazne vezbe/decoder/decoder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Prve pokazne vezbe/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "decoder.ngc" decoder.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc decoder.ucf -p xc3s1500-fg676-4 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf decoder.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Prve pokazne vezbe/decoder/decoder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Prve pokazne vezbe/decoder/decoder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc decoder.ucf -p xc3s1500-fg676-4 "decoder.ngc" decoder.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o decoder_map.ncd decoder.ngd decoder.pcf 
+par -w -intstyle ise -ol high -t 1 decoder_map.ncd decoder.ncd decoder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml decoder.twx decoder.ncd -o decoder.twr decoder.pcf -ucf decoder.ucf 
+bitgen -intstyle ise -f decoder.ut decoder.ncd 

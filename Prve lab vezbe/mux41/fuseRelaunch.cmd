@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Samir/Desktop/VHDL/Prve pokazne vezbe/mux41/tb_isim_beh.exe" -prj "C:/Users/Samir/Desktop/VHDL/Prve pokazne vezbe/mux41/tb_beh.prj" "work.tb" 
