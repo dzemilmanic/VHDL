@@ -1,0 +1,11 @@
+net a loc = AB7;
+net b loc = AB8;
+net c loc = AB9;
+net d loc = AA9;
+net e loc = AA10;
+net f loc = AA11;
+net g loc = AD12;
+net h loc = Y13;
+net X1 loc = Y8;
+net X0 loc = Y9;
+net Switch loc = W13;
