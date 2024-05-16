@@ -1,0 +1,437 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.18 secs
+ 
+--> Reading design: brojac_t_ff.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "brojac_t_ff.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "brojac_t_ff"
+Output Format                      : NGC
+Target Device                      : xc3s1500-4-fg676
+
+---- Source Options
+Top Module Name                    : brojac_t_ff
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.vhd" in Library work.
+Entity <brojac_t_ff> compiled.
+Entity <brojac_t_ff> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <brojac_t_ff> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <brojac_t_ff> in library <work> (Architecture <behavioral>).
+Entity <brojac_t_ff> analyzed. Unit <brojac_t_ff> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <brojac_t_ff>.
+    Related source file is "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.vhd".
+    Found 51-bit up counter for signal <divider>.
+    Found 3-bit register for signal <Q_pom>.
+    Found 1-bit register for signal <slow_clk>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   4 D-type flip-flop(s).
+Unit <brojac_t_ff> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 51-bit up counter                                     : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 3-bit register                                        : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 51-bit up counter                                     : 1
+# Registers                                            : 4
+ Flip-Flops                                            : 4
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <brojac_t_ff> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block brojac_t_ff, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 55
+ Flip-Flops                                            : 55
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : brojac_t_ff.ngr
+Top Level Output File Name         : brojac_t_ff
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 155
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 50
+#      LUT3                        : 1
+#      MUXCY                       : 50
+#      VCC                         : 1
+#      XORCY                       : 51
+# FlipFlops/Latches                : 55
+#      FDC                         : 52
+#      FDCE                        : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 5
+#      IBUF                        : 2
+#      OBUF                        : 3
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1500fg676-4 
+
+ Number of Slices:                       34  out of  13312     0%  
+ Number of Slice Flip Flops:             55  out of  26624     0%  
+ Number of 4 input LUTs:                 52  out of  26624     0%  
+ Number of IOs:                           6
+ Number of bonded IOBs:                   6  out of    487     1%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 52    |
+slow_clk                           | NONE(Q_pom_0)          | 3     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+RESET                              | IBUF                   | 55    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 7.090ns (Maximum Frequency: 141.044MHz)
+   Minimum input arrival time before clock: 2.330ns
+   Maximum output required time after clock: 7.271ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 7.090ns (frequency: 141.044MHz)
+  Total number of paths / destination ports: 1327 / 52
+-------------------------------------------------------------------------
+Delay:               7.090ns (Levels of Logic = 51)
+  Source:            divider_1 (FF)
+  Destination:       divider_50 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: divider_1 to divider_50
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.720   1.140  divider_1 (divider_1)
+     LUT1:I0->O            1   0.551   0.000  Mcount_divider_cy<1>_rt (Mcount_divider_cy<1>_rt)
+     MUXCY:S->O            1   0.500   0.000  Mcount_divider_cy<1> (Mcount_divider_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<2> (Mcount_divider_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<3> (Mcount_divider_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<4> (Mcount_divider_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<5> (Mcount_divider_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<6> (Mcount_divider_cy<6>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<7> (Mcount_divider_cy<7>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<8> (Mcount_divider_cy<8>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<9> (Mcount_divider_cy<9>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<10> (Mcount_divider_cy<10>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<11> (Mcount_divider_cy<11>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<12> (Mcount_divider_cy<12>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<13> (Mcount_divider_cy<13>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<14> (Mcount_divider_cy<14>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<15> (Mcount_divider_cy<15>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<16> (Mcount_divider_cy<16>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<17> (Mcount_divider_cy<17>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<18> (Mcount_divider_cy<18>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<19> (Mcount_divider_cy<19>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<20> (Mcount_divider_cy<20>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<21> (Mcount_divider_cy<21>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<22> (Mcount_divider_cy<22>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<23> (Mcount_divider_cy<23>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<24> (Mcount_divider_cy<24>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<25> (Mcount_divider_cy<25>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<26> (Mcount_divider_cy<26>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<27> (Mcount_divider_cy<27>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<28> (Mcount_divider_cy<28>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<29> (Mcount_divider_cy<29>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<30> (Mcount_divider_cy<30>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<31> (Mcount_divider_cy<31>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<32> (Mcount_divider_cy<32>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<33> (Mcount_divider_cy<33>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<34> (Mcount_divider_cy<34>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<35> (Mcount_divider_cy<35>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<36> (Mcount_divider_cy<36>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<37> (Mcount_divider_cy<37>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<38> (Mcount_divider_cy<38>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<39> (Mcount_divider_cy<39>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<40> (Mcount_divider_cy<40>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<41> (Mcount_divider_cy<41>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<42> (Mcount_divider_cy<42>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<43> (Mcount_divider_cy<43>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<44> (Mcount_divider_cy<44>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<45> (Mcount_divider_cy<45>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<46> (Mcount_divider_cy<46>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<47> (Mcount_divider_cy<47>)
+     MUXCY:CI->O           1   0.064   0.000  Mcount_divider_cy<48> (Mcount_divider_cy<48>)
+     MUXCY:CI->O           0   0.064   0.000  Mcount_divider_cy<49> (Mcount_divider_cy<49>)
+     XORCY:CI->O           1   0.904   0.000  Mcount_divider_xor<50> (Result<50>)
+     FDC:D                     0.203          divider_50
+    ----------------------------------------
+    Total                      7.090ns (5.950ns logic, 1.140ns route)
+                                       (83.9% logic, 16.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'slow_clk'
+  Clock period: 2.720ns (frequency: 367.647MHz)
+  Total number of paths / destination ports: 5 / 3
+-------------------------------------------------------------------------
+Delay:               2.720ns (Levels of Logic = 1)
+  Source:            Q_pom_1 (FF)
+  Destination:       Q_pom_0 (FF)
+  Source Clock:      slow_clk rising
+  Destination Clock: slow_clk rising
+
+  Data Path: Q_pom_1 to Q_pom_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.720   1.246  Q_pom_1 (Q_pom_1)
+     LUT3:I0->O            1   0.551   0.000  T_0_not00001 (T<0>)
+     FDCE:D                    0.203          Q_pom_0
+    ----------------------------------------
+    Total                      2.720ns (1.474ns logic, 1.246ns route)
+                                       (54.2% logic, 45.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'slow_clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.330ns (Levels of Logic = 1)
+  Source:            EN (PAD)
+  Destination:       Q_pom_0 (FF)
+  Destination Clock: slow_clk rising
+
+  Data Path: EN to Q_pom_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             3   0.821   0.907  EN_IBUF (EN_IBUF)
+     FDCE:CE                   0.602          Q_pom_0
+    ----------------------------------------
+    Total                      2.330ns (1.423ns logic, 0.907ns route)
+                                       (61.1% logic, 38.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'slow_clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              7.271ns (Levels of Logic = 1)
+  Source:            Q_pom_1 (FF)
+  Destination:       Q<1> (PAD)
+  Source Clock:      slow_clk rising
+
+  Data Path: Q_pom_1 to Q<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.720   0.907  Q_pom_1 (Q_pom_1)
+     OBUF:I->O                 5.644          Q_1_OBUF (Q<1>)
+    ----------------------------------------
+    Total                      7.271ns (6.364ns logic, 0.907ns route)
+                                       (87.5% logic, 12.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.56 secs
+ 
+--> 
+
+Total memory usage is 4514856 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,66 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+bitgen -intstyle ise -f brojac_t_ff.ut brojac_t_ff.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+bitgen -intstyle ise -f brojac_t_ff.ut brojac_t_ff.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+bitgen -intstyle ise -f brojac_t_ff.ut brojac_t_ff.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+bitgen -intstyle ise -f brojac_t_ff.ut brojac_t_ff.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+bitgen -intstyle ise -f brojac_t_ff.ut brojac_t_ff.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+bitgen -intstyle ise -f brojac_t_ff.ut brojac_t_ff.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "brojac_t_ff.ngc" brojac_t_ff.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_t_ff_map.ncd brojac_t_ff.ngd brojac_t_ff.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_t_ff_map.ncd brojac_t_ff.ncd brojac_t_ff.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac_t_ff.twx brojac_t_ff.ncd -o brojac_t_ff.twr brojac_t_ff.pcf -ucf brojac_t_ff.ucf 
+bitgen -intstyle ise -f brojac_t_ff.ut brojac_t_ff.ncd 

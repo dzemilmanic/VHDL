@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/counter3b.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/counter3b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac_t_ff.ucf -p xc3s1500-fg676-4 "counter3b.ngc" counter3b.ngd  

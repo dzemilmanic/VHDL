@@ -1,0 +1,8 @@
+V3 4
+FL "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.vhd" 2024/05/16.12:04:34 P.20131013
+EN work/brojac_t_ff 1715853877 \
+      FL "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/brojac_t_ff/Behavioral 1715853878 \
+      FL "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.vhd" \
+      EN work/brojac_t_ff 1715853877

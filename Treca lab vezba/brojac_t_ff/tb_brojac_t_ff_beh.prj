@@ -1,0 +1,2 @@
+vhdl work "brojac_t_ff.vhd"
+vhdl work "tb_brojac_t_ff.vhd"

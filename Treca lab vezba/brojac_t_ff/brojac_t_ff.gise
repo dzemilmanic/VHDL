@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="brojac_t_ff.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="brojac.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="brojac.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="brojac.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="brojac.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="brojac.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="brojac.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="brojac.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="brojac.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="brojac_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="brojac_t_ff.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="brojac_t_ff.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="brojac_t_ff.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="brojac_t_ff.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="brojac_t_ff.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="brojac_t_ff.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="brojac_t_ff.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="brojac_t_ff.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="brojac_t_ff.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="brojac_t_ff.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="brojac_t_ff.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="brojac_t_ff.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="brojac_t_ff.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="brojac_t_ff.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="brojac_t_ff.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="brojac_t_ff.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="brojac_t_ff.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="brojac_t_ff.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="brojac_t_ff.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="brojac_t_ff.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="brojac_t_ff.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="brojac_t_ff.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="brojac_t_ff.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="brojac_t_ff_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="brojac_t_ff_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="brojac_t_ff_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="brojac_t_ff_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="brojac_t_ff_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="brojac_t_ff_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="brojac_t_ff_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="brojac_t_ff_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="brojac_t_ff_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="brojac_t_ff_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="brojac_t_ff_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="brojac_t_ff_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="brojac_t_ff_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="brojac_t_ff_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="brojac_t_ff_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="brojac_t_ff_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="brojac_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="brojac_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="counter3b.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="counter3b.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="counter3b.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="counter3b.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="counter3b.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter3b.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="counter3b.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="counter3b.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="counter3b.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="counter3b_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="counter3b_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_brojac_t_ff_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_brojac_t_ff_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_brojac_t_ff_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1715851324" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1715851324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715852795" xil_pn:in_ck="3927533223947755283" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1715852795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="brojac_t_ff.vhd"/>
+      <outfile xil_pn:name="tb_brojac_t_ff.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1715851403" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="6301191386195350970" xil_pn:start_ts="1715851403">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715851403" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="526192196559927410" xil_pn:start_ts="1715851403">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715851324" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="4233477015526182863" xil_pn:start_ts="1715851324">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715852795" xil_pn:in_ck="3927533223947755283" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1715852795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="brojac_t_ff.vhd"/>
+      <outfile xil_pn:name="tb_brojac_t_ff.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1715852800" xil_pn:in_ck="3927533223947755283" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-1638448598245346287" xil_pn:start_ts="1715852795">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="tb_brojac_t_ff_beh.prj"/>
+      <outfile xil_pn:name="tb_brojac_t_ff_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1715852800" xil_pn:in_ck="3711156656354835187" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2769328404919330498" xil_pn:start_ts="1715852800">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="tb_brojac_t_ff_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1715850989" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1715850989">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853765" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="1276792354109836074" xil_pn:start_ts="1715853765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853765" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="4233477015526182863" xil_pn:start_ts="1715853765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715850989" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1715850989">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853765" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="1697170239973892466" xil_pn:start_ts="1715853765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715850989" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1429692520443753923" xil_pn:start_ts="1715850989">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853765" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3198400059018903335" xil_pn:start_ts="1715853765">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853884" xil_pn:in_ck="-1689071001800776257" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-2486723022812045607" xil_pn:start_ts="1715853874">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="brojac_t_ff.lso"/>
+      <outfile xil_pn:name="brojac_t_ff.ngc"/>
+      <outfile xil_pn:name="brojac_t_ff.ngr"/>
+      <outfile xil_pn:name="brojac_t_ff.prj"/>
+      <outfile xil_pn:name="brojac_t_ff.stx"/>
+      <outfile xil_pn:name="brojac_t_ff.syr"/>
+      <outfile xil_pn:name="brojac_t_ff.xst"/>
+      <outfile xil_pn:name="brojac_t_ff_vhdl.prj"/>
+      <outfile xil_pn:name="brojac_t_ff_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853774" xil_pn:in_ck="-1689071001800777509" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8265810873775338855" xil_pn:start_ts="1715853774">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853891" xil_pn:in_ck="2533524882918540898" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="1610194632528755991" xil_pn:start_ts="1715853884">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="brojac_t_ff.bld"/>
+      <outfile xil_pn:name="brojac_t_ff.ngd"/>
+      <outfile xil_pn:name="brojac_t_ff_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853895" xil_pn:in_ck="7284244100080891313" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-8741180932482148155" xil_pn:start_ts="1715853891">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="brojac_t_ff.pcf"/>
+      <outfile xil_pn:name="brojac_t_ff_map.map"/>
+      <outfile xil_pn:name="brojac_t_ff_map.mrp"/>
+      <outfile xil_pn:name="brojac_t_ff_map.ncd"/>
+      <outfile xil_pn:name="brojac_t_ff_map.ngm"/>
+      <outfile xil_pn:name="brojac_t_ff_map.xrpt"/>
+      <outfile xil_pn:name="brojac_t_ff_summary.xml"/>
+      <outfile xil_pn:name="brojac_t_ff_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853908" xil_pn:in_ck="-4948778457124177238" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-561354228862665646" xil_pn:start_ts="1715853895">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="brojac_t_ff.ncd"/>
+      <outfile xil_pn:name="brojac_t_ff.pad"/>
+      <outfile xil_pn:name="brojac_t_ff.par"/>
+      <outfile xil_pn:name="brojac_t_ff.ptwx"/>
+      <outfile xil_pn:name="brojac_t_ff.unroutes"/>
+      <outfile xil_pn:name="brojac_t_ff.xpi"/>
+      <outfile xil_pn:name="brojac_t_ff_pad.csv"/>
+      <outfile xil_pn:name="brojac_t_ff_pad.txt"/>
+      <outfile xil_pn:name="brojac_t_ff_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853917" xil_pn:in_ck="-1689071001800785134" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1715853908">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="brojac_t_ff.bgn"/>
+      <outfile xil_pn:name="brojac_t_ff.bit"/>
+      <outfile xil_pn:name="brojac_t_ff.drc"/>
+      <outfile xil_pn:name="brojac_t_ff.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853918" xil_pn:in_ck="-1689071001800797988" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-6745644827150672321" xil_pn:start_ts="1715853917">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1715853908" xil_pn:in_ck="4138816407224118701" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1715853905">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="brojac_t_ff.twr"/>
+      <outfile xil_pn:name="brojac_t_ff.twx"/>
+    </transform>
+    <transform xil_pn:end_ts="1715851239" xil_pn:in_ck="-1689071001800785002" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1715851238">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

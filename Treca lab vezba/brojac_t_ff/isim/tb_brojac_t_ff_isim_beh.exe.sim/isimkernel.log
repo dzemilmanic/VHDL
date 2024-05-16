@@ -1,0 +1,29 @@
+Command line:
+   tb_brojac_t_ff_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59318
+
+Thu May 16 11:46:42 2024
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5151.24 Meg
+
+ Total Signals          : 12
+ Total Nets             : 34
+ Total Signal Drivers   : 10
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 8
+ Total Traceable Variables  : 14
+ Total Scalar Nets and Variables : 518
+Total Line Count : 22
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5151.24 Meg
+
+Thu May 16 11:47:08 2024
+

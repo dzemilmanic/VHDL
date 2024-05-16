@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/tb_brojac_t_ff_isim_beh.exe" -prj "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/tb_brojac_t_ff_beh.prj" "work.tb_brojac_t_ff" 

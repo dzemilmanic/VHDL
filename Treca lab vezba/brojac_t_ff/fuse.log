@@ -1,0 +1,19 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/tb_brojac_t_ff_isim_beh.exe -prj C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/tb_brojac_t_ff_beh.prj work.tb_brojac_t_ff 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/brojac_t_ff.vhd" into library work
+Parsing VHDL file "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/tb_brojac_t_ff.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity brojac_t_ff [brojac_t_ff_default]
+Compiling architecture behavior of entity tb_brojac_t_ff
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Built simulation executable C:/Users/Samir/Desktop/VHDL/Treca lab vezba/brojac_t_ff/tb_brojac_t_ff_isim_beh.exe
+Fuse Memory Usage: 36276 KB
+Fuse CPU Usage: 764 ms
