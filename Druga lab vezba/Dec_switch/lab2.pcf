@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 14 09:03:16 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "e" LOCATE = SITE "AA10" LEVEL 1;
+COMP "f" LOCATE = SITE "AA11" LEVEL 1;
+COMP "g" LOCATE = SITE "AD12" LEVEL 1;
+COMP "h" LOCATE = SITE "Y13" LEVEL 1;
+COMP "Switch" LOCATE = SITE "W13" LEVEL 1;
+COMP "X0" LOCATE = SITE "Y9" LEVEL 1;
+COMP "X1" LOCATE = SITE "Y8" LEVEL 1;
+COMP "a" LOCATE = SITE "AB7" LEVEL 1;
+COMP "b" LOCATE = SITE "AB8" LEVEL 1;
+COMP "c" LOCATE = SITE "AB9" LEVEL 1;
+COMP "d" LOCATE = SITE "AA9" LEVEL 1;
+SCHEMATIC END;
+
