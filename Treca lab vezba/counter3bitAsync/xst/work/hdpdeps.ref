@@ -1,0 +1,8 @@
+V3 3
+FL "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/counter3bitAsync/Clock_Divider.vhd" 2024/05/18.14:12:37 P.20131013
+EN work/Clock_Divider 1716034408 \
+      FL "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/counter3bitAsync/Clock_Divider.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Clock_Divider/Behavioral 1716034409 \
+      FL "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/counter3bitAsync/Clock_Divider.vhd" \
+      EN work/Clock_Divider 1716034408

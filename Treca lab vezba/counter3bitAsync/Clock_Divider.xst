@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/counter3bitAsync/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/counter3bitAsync/xst"
+elaborate
+-ifn Clock_Divider.prj
+-ifmt mixed
