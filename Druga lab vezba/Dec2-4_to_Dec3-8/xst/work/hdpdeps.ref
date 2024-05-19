@@ -1,0 +1,15 @@
+V3 7
+FL "C:/Users/Samir/Desktop/VHDL/Druga lab vezba/Dec2-4_to_Dec3-8/Dec2to4.vhd" 2024/05/18.13:35:13 P.20131013
+EN work/Dec2to4 1716148436 \
+      FL "C:/Users/Samir/Desktop/VHDL/Druga lab vezba/Dec2-4_to_Dec3-8/Dec2to4.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Dec2to4/Behavioral 1716148437 \
+      FL "C:/Users/Samir/Desktop/VHDL/Druga lab vezba/Dec2-4_to_Dec3-8/Dec2to4.vhd" \
+      EN work/Dec2to4 1716148436
+FL "C:/Users/Samir/Desktop/VHDL/Druga lab vezba/Dec2-4_to_Dec3-8/Dec3to8.vhd" 2024/05/18.13:38:23 P.20131013
+EN work/Dec3to8 1716148438 \
+      FL "C:/Users/Samir/Desktop/VHDL/Druga lab vezba/Dec2-4_to_Dec3-8/Dec3to8.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Dec3to8/Behavioral 1716148439 \
+      FL "C:/Users/Samir/Desktop/VHDL/Druga lab vezba/Dec2-4_to_Dec3-8/Dec3to8.vhd" \
+      EN work/Dec3to8 1716148438 CP Dec2to4

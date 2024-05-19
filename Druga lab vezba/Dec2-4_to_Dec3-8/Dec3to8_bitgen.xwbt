@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Samir\Desktop\VHDL\Druga lab vezba\Dec2-4_to_Dec3-8\Dec3to8.ncd
+OUTFILE=C:\Users\Samir\Desktop\VHDL\Druga lab vezba\Dec2-4_to_Dec3-8\Dec3to8.bit
+FAMILY=Spartan3
+PART=xc3s1500-4fg676
+WORKINGDIR=C:\Users\Samir\Desktop\VHDL\Druga lab vezba\Dec2-4_to_Dec3-8
+LICENSE=WebPack
+USER_INFO=212986343_0_0_637

@@ -1,0 +1,11 @@
+net "d_in[2]" loc = Y8;
+net "d_in[1]" loc = Y9;
+net "d_in[0]" loc = Y10;
+net "d_out[7]" loc = AB7;
+net "d_out[6]" loc = AB8;
+net "d_out[5]" loc = AB9;
+net "d_out[4]" loc = AA9;
+net "d_out[3]" loc = AA10;
+net "d_out[2]" loc = AA11;
+net "d_out[1]" loc = AD12;
+net "d_out[0]" loc = Y13;

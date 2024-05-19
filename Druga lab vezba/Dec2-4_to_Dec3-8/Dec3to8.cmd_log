@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Druga lab vezba/Dec2-4_to_Dec3-8/Dec3to8.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Druga lab vezba/Dec2-4_to_Dec3-8/Dec3to8.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "Dec3to8.ngc" Dec3to8.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dec3to8.ucf -p xc3s1500-fg676-4 "Dec3to8.ngc" Dec3to8.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o Dec3to8_map.ncd Dec3to8.ngd Dec3to8.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Dec3to8.ucf -p xc3s1500-fg676-4 "Dec3to8.ngc" Dec3to8.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o Dec3to8_map.ncd Dec3to8.ngd Dec3to8.pcf 
+par -w -intstyle ise -ol high -t 1 Dec3to8_map.ncd Dec3to8.ncd Dec3to8.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Dec3to8.twx Dec3to8.ncd -o Dec3to8.twr Dec3to8.pcf -ucf Dec3to8.ucf 
+bitgen -intstyle ise -f Dec3to8.ut Dec3to8.ncd 
