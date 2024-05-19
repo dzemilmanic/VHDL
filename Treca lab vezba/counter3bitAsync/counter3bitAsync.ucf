@@ -1,0 +1,8 @@
+net "C_OUT[2]" loc = AB7;
+net "C_OUT[1]" loc = AB8;
+net "C_OUT[0]" loc = AB9;
+net CLK loc = AE14;
+net T loc = Y8;
+net R loc = Y9;
+net C_EN loc = Y10;
+net C_UP loc = Y11;

@@ -1,0 +1,20 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/counter3bitAsync/counter3bitAsync.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Treca lab vezba/counter3bitAsync/counter3bitAsync.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "counter3bitAsync.ngc" counter3bitAsync.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter3bitAsync.ucf -p xc3s1500-fg676-4 "counter3bitAsync.ngc" counter3bitAsync.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o counter3bitAsync_map.ncd counter3bitAsync.ngd counter3bitAsync.pcf 
+par -w -intstyle ise -ol high -t 1 counter3bitAsync_map.ncd counter3bitAsync.ncd counter3bitAsync.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter3bitAsync.twx counter3bitAsync.ncd -o counter3bitAsync.twr counter3bitAsync.pcf -ucf counter3bitAsync.ucf 
+bitgen -intstyle ise -f counter3bitAsync.ut counter3bitAsync.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter3bitAsync.ucf -p xc3s1500-fg676-4 "counter3bitAsync.ngc" counter3bitAsync.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o counter3bitAsync_map.ncd counter3bitAsync.ngd counter3bitAsync.pcf 
+par -w -intstyle ise -ol high -t 1 counter3bitAsync_map.ncd counter3bitAsync.ncd counter3bitAsync.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter3bitAsync.ucf -p xc3s1500-fg676-4 "counter3bitAsync.ngc" counter3bitAsync.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o counter3bitAsync_map.ncd counter3bitAsync.ngd counter3bitAsync.pcf 
+par -w -intstyle ise -ol high -t 1 counter3bitAsync_map.ncd counter3bitAsync.ncd counter3bitAsync.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter3bitAsync.twx counter3bitAsync.ncd -o counter3bitAsync.twr counter3bitAsync.pcf -ucf counter3bitAsync.ucf 
+bitgen -intstyle ise -f counter3bitAsync.ut counter3bitAsync.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc counter3bitAsync.ucf -p xc3s1500-fg676-4 "counter3bitAsync.ngc" counter3bitAsync.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o counter3bitAsync_map.ncd counter3bitAsync.ngd counter3bitAsync.pcf 
+par -w -intstyle ise -ol high -t 1 counter3bitAsync_map.ncd counter3bitAsync.ncd counter3bitAsync.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml counter3bitAsync.twx counter3bitAsync.ncd -o counter3bitAsync.twr counter3bitAsync.pcf -ucf counter3bitAsync.ucf 
+bitgen -intstyle ise -f counter3bitAsync.ut counter3bitAsync.ncd 

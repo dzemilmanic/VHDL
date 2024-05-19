@@ -1,0 +1,3 @@
+vhdl work "TFF.vhd"
+vhdl work "Clock_Divider.vhd"
+vhdl work "counter3bitAsync.vhd"
