@@ -1,0 +1,3 @@
+vhdl work "adder1bit.vhd"
+vhdl work "sabirac4bit.vhd"
+vhdl work "tb_adder.vhd"

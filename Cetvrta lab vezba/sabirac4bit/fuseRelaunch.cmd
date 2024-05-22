@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/tb_adder_isim_beh.exe" -prj "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/tb_adder_beh.prj" "work.tb_adder" 

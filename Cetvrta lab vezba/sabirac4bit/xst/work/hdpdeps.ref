@@ -1,0 +1,22 @@
+V3 10
+FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/adder1bit.vhd" 2024/05/21.11:24:21 P.20131013
+EN work/adder1bit 1716283493 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/adder1bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/adder1bit/Behavioral 1716283494 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/adder1bit.vhd" \
+      EN work/adder1bit 1716283493
+FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/sabirac.vhd" 2024/05/21.09:02:42 P.20131013
+EN work/FullAdder 1716276699 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/sabirac.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FullAdder/Behavioral 1716276700 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/sabirac.vhd" \
+      EN work/FullAdder 1716276699
+FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/sabirac4bit.vhd" 2024/05/21.11:24:48 P.20131013
+EN work/FourBitAdder 1716283495 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/sabirac4bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/FourBitAdder/Behavioral 1716283496 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/sabirac4bit.vhd" \
+      EN work/FourBitAdder 1716283495 CP adder1bit

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Samir\Desktop\VHDL\Cetvrta lab vezba\sabirac4bit\FourBitAdder.ncd
+OUTFILE=C:\Users\Samir\Desktop\VHDL\Cetvrta lab vezba\sabirac4bit\FourBitAdder.bit
+FAMILY=Spartan3
+PART=xc3s1500-4fg676
+WORKINGDIR=C:\Users\Samir\Desktop\VHDL\Cetvrta lab vezba\sabirac4bit
+LICENSE=WebPack
+USER_INFO=212986343_0_0_637

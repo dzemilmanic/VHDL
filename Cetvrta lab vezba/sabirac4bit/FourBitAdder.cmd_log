@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/sabirac4bit/FourBitAdder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "FourBitAdder.ngc" FourBitAdder.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o FourBitAdder_map.ncd FourBitAdder.ngd FourBitAdder.pcf 
+par -w -intstyle ise -ol high -t 1 FourBitAdder_map.ncd FourBitAdder.ncd FourBitAdder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FourBitAdder.twx FourBitAdder.ncd -o FourBitAdder.twr FourBitAdder.pcf 
+bitgen -intstyle ise -f FourBitAdder.ut FourBitAdder.ncd 
