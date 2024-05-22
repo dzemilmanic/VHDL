@@ -1,0 +1,15 @@
+V3 7
+FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/clock_divider.vhd" 2024/05/21.09:46:01 P.20131013
+EN work/clock_Divider 1716284358 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/clock_divider.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Clock_Divider/Behavioral 1716284359 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/clock_divider.vhd" \
+      EN work/clock_Divider 1716284358
+FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.vhd" 2024/05/21.11:38:49 P.20131013
+EN work/registar8bit 1716284360 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/registar8bit/Behavioral 1716284361 \
+      FL "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.vhd" \
+      EN work/registar8bit 1716284360 CP clock_divider

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Samir\Desktop\VHDL\Cetvrta lab vezba\registar8bit\registar8bit.ncd
+OUTFILE=C:\Users\Samir\Desktop\VHDL\Cetvrta lab vezba\registar8bit\registar8bit.bit
+FAMILY=Spartan3
+PART=xc3s1500-4fg676
+WORKINGDIR=C:\Users\Samir\Desktop\VHDL\Cetvrta lab vezba\registar8bit
+LICENSE=WebPack
+USER_INFO=212986343_0_0_637

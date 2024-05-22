@@ -1,0 +1,17 @@
+net iLOAD loc = Y8;
+net iSL loc = Y9;
+net iSR loc = Y10;
+net AR loc = Y11;
+net "iOUT[7]" loc = AB7;
+net "iOUT[6]" loc = AB8;
+net "iOUT[5]" loc = AB9;
+net "iOUT[4]" loc = AA9;
+net "iOUT[3]" loc = AA10;
+net "iOUT[2]" loc = AA11;
+net "iOUT[1]" loc = AD12;
+net "iOUT[0]" loc = Y13;
+net CLK loc = AE14;
+net "aData[7]" loc = Y12; 
+net "aData[6]" loc = W11;
+net "aData[5]" loc = W12;
+net "aData[4]" loc = W13;

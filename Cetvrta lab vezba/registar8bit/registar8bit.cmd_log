@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "registar8bit.ngc" registar8bit.ngd  
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc registar8bit.ucf -p xc3s1500-fg676-4 "registar8bit.ngc" registar8bit.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc registar8bit.ucf -p xc3s1500-fg676-4 "registar8bit.ngc" registar8bit.ngd  
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc registar8bit.ucf -p xc3s1500-fg676-4 "registar8bit.ngc" registar8bit.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o registar8bit_map.ncd registar8bit.ngd registar8bit.pcf 
+par -w -intstyle ise -ol high -t 1 registar8bit_map.ncd registar8bit.ncd registar8bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml registar8bit.twx registar8bit.ncd -o registar8bit.twr registar8bit.pcf -ucf registar8bit.ucf 
+bitgen -intstyle ise -f registar8bit.ut registar8bit.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc registar8bit.ucf -p xc3s1500-fg676-4 "registar8bit.ngc" registar8bit.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o registar8bit_map.ncd registar8bit.ngd registar8bit.pcf 
+par -w -intstyle ise -ol high -t 1 registar8bit_map.ncd registar8bit.ncd registar8bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml registar8bit.twx registar8bit.ncd -o registar8bit.twr registar8bit.pcf -ucf registar8bit.ucf 
+bitgen -intstyle ise -f registar8bit.ut registar8bit.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc registar8bit.ucf -p xc3s1500-fg676-4 "registar8bit.ngc" registar8bit.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o registar8bit_map.ncd registar8bit.ngd registar8bit.pcf 
+par -w -intstyle ise -ol high -t 1 registar8bit_map.ncd registar8bit.ncd registar8bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml registar8bit.twx registar8bit.ncd -o registar8bit.twr registar8bit.pcf -ucf registar8bit.ucf 
+bitgen -intstyle ise -f registar8bit.ut registar8bit.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Cetvrta lab vezba/registar8bit/registar8bit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc registar8bit.ucf -p xc3s1500-fg676-4 "registar8bit.ngc" registar8bit.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o registar8bit_map.ncd registar8bit.ngd registar8bit.pcf 
+par -w -intstyle ise -ol high -t 1 registar8bit_map.ncd registar8bit.ncd registar8bit.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml registar8bit.twx registar8bit.ncd -o registar8bit.twr registar8bit.pcf -ucf registar8bit.ucf 
+bitgen -intstyle ise -f registar8bit.ut registar8bit.ncd 
