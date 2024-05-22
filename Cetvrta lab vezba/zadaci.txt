@@ -1,0 +1,4 @@
+1. 8 bit registar, iLOAD dozvola za upis kada je 1, ulaz aData za smestanje, ako je iLOAD na 0 treba da se pomera u zavisnosti od sledecih kontrola, shiftleft, shiftright, aritmeticko kolo(definise da li je pomeranje aritmeticko(kada je na 0) ili logicko (kada je na 1)) ako su i shiftleft i shiftright ukljuceni, stoji u mestu.
+
+2. 4 bit sabirac, ulazi jedan po jedan bit (napraviti component sabirac i port mapirati 4 puta). ima 3 ulaza i 2 izlaza, potpuni sabirac, 2 predstavljaju bitove operanda a treci predstavlja prenos. treba da sabere 3 bita sa ulaza i na izlazu da kaze sumu. suma 3 bin broja moze da bude od 0 do 3 tako da izlaz sabirace predstavlja 2 bita.
+	
