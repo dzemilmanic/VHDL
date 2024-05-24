@@ -1,0 +1,2 @@
+vhdl isim_temp "brojac.vhd"
+vhdl isim_temp "tb.vhd"

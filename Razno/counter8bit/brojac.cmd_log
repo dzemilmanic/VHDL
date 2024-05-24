@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Vezbanje/brojac/brojac.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Vezbanje/brojac/brojac.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Vezbanje/brojac/brojac.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Vezbanje/brojac/brojac.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 brojac.ngc brojac.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_map.ncd brojac.ngd brojac.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_map.ncd brojac.ncd brojac.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac.twx brojac.ncd -o brojac.twr brojac.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc brojac.ucf -p xc3s1500-fg676-4 brojac.ngc brojac.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o brojac_map.ncd brojac.ngd brojac.pcf 
+par -w -intstyle ise -ol high -t 1 brojac_map.ncd brojac.ncd brojac.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml brojac.twx brojac.ncd -o brojac.twr brojac.pcf -ucf brojac.ucf 
+bitgen -intstyle ise -f brojac.ut brojac.ncd 
