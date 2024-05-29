@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.syr" 

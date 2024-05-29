@@ -1,0 +1,15 @@
+V3 7
+FL "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/clock_divider.vhd" 2024/05/28.08:26:18 P.20131013
+EN work/clock_Divider 0 \
+      FL "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/clock_divider.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Clock_Divider/Behavioral 0 \
+      FL "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/clock_divider.vhd" \
+      EN work/clock_Divider 0
+FL "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.vhd" 2024/05/28.08:14:19 P.20131013
+EN work/stoperica 1716876862 \
+      FL "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/stoperica/Behavioral 1716876863 \
+      FL "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica8bit/stoperica.vhd" \
+      EN work/stoperica 1716876862 CP clock_divider
