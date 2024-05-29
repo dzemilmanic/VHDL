@@ -1,0 +1,16 @@
+net Start loc = Y8;
+net Stop loc = Y9;
+net Cont loc = Y10;
+net Reset loc = Y11;
+net CLK loc = AE14;
+net "Izlaz[7]" loc = AB7;
+net "Izlaz[6]" loc = AB8;
+net "Izlaz[5]" loc = AB9;
+net "Izlaz[4]" loc = AA9;
+net "Izlaz[3]" loc = AA10;
+net "Izlaz[2]" loc = AA11;
+net "Izlaz[1]" loc = AD12;
+net "Izlaz[0]" loc = Y13;
+net "MaxCount[2]" loc = W11;
+net "MaxCount[1]" loc = W12;
+net "MaxCount[0]" loc = W13;

@@ -1,0 +1,3 @@
+vhdl work "clock_divider.vhd"
+vhdl work "stoperica.vhd"
+vhdl work "tb.vhd"

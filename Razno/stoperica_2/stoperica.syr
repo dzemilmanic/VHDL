@@ -1,0 +1,429 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: stoperica.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "stoperica.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "stoperica"
+Output Format                      : NGC
+Target Device                      : xc3s1500-4-fg676
+
+---- Source Options
+Top Module Name                    : stoperica
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/clock_divider.vhd" in Library work.
+Architecture behavioral of Entity clock_divider is up to date.
+Compiling vhdl file "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.vhd" in Library work.
+Entity <stoperica> compiled.
+WARNING:HDLParsers:3335 - "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.vhd" Line 50. Null range: 2 to 0
+Entity <stoperica> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <stoperica> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <clock_divider> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <stoperica> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.vhd" line 65: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <slow_clk>
+Entity <stoperica> analyzed. Unit <stoperica> generated.
+
+Analyzing Entity <clock_divider> in library <work> (Architecture <behavioral>).
+Entity <clock_divider> analyzed. Unit <clock_divider> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <clock_divider>.
+    Related source file is "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/clock_divider.vhd".
+    Found 32-bit up counter for signal <counter>.
+    Found 1-bit register for signal <slow_clk>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <clock_divider> synthesized.
+
+
+Synthesizing Unit <stoperica>.
+    Related source file is "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.vhd".
+WARNING:Xst:647 - Input <Cont> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <Stop> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+WARNING:Xst:647 - Input <MaxCount<2>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 8-bit up counter for signal <count>.
+    Found 8-bit comparator greatequal for signal <count$cmp_ge0000> created at line 68.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 Comparator(s).
+Unit <stoperica> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 32-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 1
+ 1-bit register                                        : 1
+# Comparators                                          : 1
+ 8-bit comparator greatequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 2
+ 32-bit up counter                                     : 1
+ 8-bit up counter                                      : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+# Comparators                                          : 1
+ 8-bit comparator greatequal                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <stoperica> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block stoperica, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 41
+ Flip-Flops                                            : 41
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : stoperica.ngr
+Top Level Output File Name         : stoperica
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 16
+
+Cell Usage :
+# BELS                             : 141
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 38
+#      LUT4                        : 11
+#      LUT4_L                      : 1
+#      MUXCY                       : 46
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 41
+#      FDCE                        : 8
+#      FDE                         : 1
+#      FDR                         : 32
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 12
+#      IBUF                        : 4
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1500fg676-4 
+
+ Number of Slices:                       27  out of  13312     0%  
+ Number of Slice Flip Flops:             41  out of  26624     0%  
+ Number of 4 input LUTs:                 53  out of  26624     0%  
+ Number of IOs:                          16
+ Number of bonded IOBs:                  13  out of    487     2%  
+ Number of GCLKs:                         1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 33    |
+clk_div/slow_clk                   | NONE(count_0)          | 8     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+Reset                              | IBUF                   | 8     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.729ns (Maximum Frequency: 148.610MHz)
+   Minimum input arrival time before clock: 6.995ns
+   Maximum output required time after clock: 7.281ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 6.537ns (frequency: 152.979MHz)
+  Total number of paths / destination ports: 1585 / 66
+-------------------------------------------------------------------------
+Delay:               6.537ns (Levels of Logic = 9)
+  Source:            clk_div/counter_8 (FF)
+  Destination:       clk_div/counter_0 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: clk_div/counter_8 to clk_div/counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.720   1.216  clk_div/counter_8 (clk_div/counter_8)
+     LUT4:I0->O            1   0.551   0.000  clk_div/slow_clk_cmp_eq0000_wg_lut<0> (clk_div/slow_clk_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  clk_div/slow_clk_cmp_eq0000_wg_cy<0> (clk_div/slow_clk_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  clk_div/slow_clk_cmp_eq0000_wg_cy<1> (clk_div/slow_clk_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  clk_div/slow_clk_cmp_eq0000_wg_cy<2> (clk_div/slow_clk_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  clk_div/slow_clk_cmp_eq0000_wg_cy<3> (clk_div/slow_clk_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  clk_div/slow_clk_cmp_eq0000_wg_cy<4> (clk_div/slow_clk_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  clk_div/slow_clk_cmp_eq0000_wg_cy<5> (clk_div/slow_clk_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  clk_div/slow_clk_cmp_eq0000_wg_cy<6> (clk_div/slow_clk_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          33   0.281   1.859  clk_div/slow_clk_cmp_eq0000_wg_cy<7> (clk_div/slow_clk_cmp_eq0000)
+     FDR:R                     1.026          clk_div/counter_0
+    ----------------------------------------
+    Total                      6.537ns (3.462ns logic, 3.075ns route)
+                                       (53.0% logic, 47.0% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_div/slow_clk'
+  Clock period: 6.729ns (frequency: 148.610MHz)
+  Total number of paths / destination ports: 108 / 16
+-------------------------------------------------------------------------
+Delay:               6.729ns (Levels of Logic = 3)
+  Source:            count_0 (FF)
+  Destination:       count_0 (FF)
+  Source Clock:      clk_div/slow_clk rising
+  Destination Clock: clk_div/slow_clk rising
+
+  Data Path: count_0 to count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             3   0.720   0.975  count_0 (count_0)
+     LUT4:I2->O            1   0.551   0.869  count_not000110 (count_not000110)
+     LUT4:I2->O            1   0.551   0.827  count_not000155_SW0 (N2)
+     LUT4:I3->O            8   0.551   1.083  count_not000155 (count_not0001)
+     FDCE:CE                   0.602          count_0
+    ----------------------------------------
+    Total                      6.729ns (2.975ns logic, 3.754ns route)
+                                       (44.2% logic, 55.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_div/slow_clk'
+  Total number of paths / destination ports: 32 / 8
+-------------------------------------------------------------------------
+Offset:              6.995ns (Levels of Logic = 4)
+  Source:            MaxCount<0> (PAD)
+  Destination:       count_0 (FF)
+  Destination Clock: clk_div/slow_clk rising
+
+  Data Path: MaxCount<0> to count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   1.140  MaxCount_0_IBUF (MaxCount_0_IBUF)
+     LUT4:I0->O            1   0.551   0.869  count_not000110 (count_not000110)
+     LUT4:I2->O            1   0.551   0.827  count_not000155_SW0 (N2)
+     LUT4:I3->O            8   0.551   1.083  count_not000155 (count_not0001)
+     FDCE:CE                   0.602          count_0
+    ----------------------------------------
+    Total                      6.995ns (3.076ns logic, 3.919ns route)
+                                       (44.0% logic, 56.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_div/slow_clk'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              7.281ns (Levels of Logic = 1)
+  Source:            count_1 (FF)
+  Destination:       Izlaz<1> (PAD)
+  Source Clock:      clk_div/slow_clk rising
+
+  Data Path: count_1 to Izlaz<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q             4   0.720   0.917  count_1 (count_1)
+     OBUF:I->O                 5.644          Izlaz_1_OBUF (Izlaz<1>)
+    ----------------------------------------
+    Total                      7.281ns (6.364ns logic, 0.917ns route)
+                                       (87.4% logic, 12.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.51 secs
+ 
+--> 
+
+Total memory usage is 4514940 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    5 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

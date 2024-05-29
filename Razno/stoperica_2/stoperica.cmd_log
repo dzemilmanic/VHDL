@@ -1,0 +1,49 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+par -w -intstyle ise -ol high -t 1 stoperica_map.ncd stoperica.ncd stoperica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stoperica.twx stoperica.ncd -o stoperica.twr stoperica.pcf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+par -w -intstyle ise -ol high -t 1 stoperica_map.ncd stoperica.ncd stoperica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stoperica.twx stoperica.ncd -o stoperica.twr stoperica.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stoperica.ucf -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stoperica.ucf -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+par -w -intstyle ise -ol high -t 1 stoperica_map.ncd stoperica.ncd stoperica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stoperica.twx stoperica.ncd -o stoperica.twr stoperica.pcf -ucf stoperica.ucf 
+bitgen -intstyle ise -f stoperica.ut stoperica.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stoperica.ucf -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+par -w -intstyle ise -ol high -t 1 stoperica_map.ncd stoperica.ncd stoperica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stoperica.twx stoperica.ncd -o stoperica.twr stoperica.pcf -ucf stoperica.ucf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stoperica.ucf -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+par -w -intstyle ise -ol high -t 1 stoperica_map.ncd stoperica.ncd stoperica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stoperica.twx stoperica.ncd -o stoperica.twr stoperica.pcf -ucf stoperica.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stoperica.ucf -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+par -w -intstyle ise -ol high -t 1 stoperica_map.ncd stoperica.ncd stoperica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stoperica.twx stoperica.ncd -o stoperica.twr stoperica.pcf -ucf stoperica.ucf 
+bitgen -intstyle ise -f stoperica.ut stoperica.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stoperica.ucf -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+par -w -intstyle ise -ol high -t 1 stoperica_map.ncd stoperica.ncd stoperica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stoperica.twx stoperica.ncd -o stoperica.twr stoperica.pcf -ucf stoperica.ucf 
+bitgen -intstyle ise -f stoperica.ut stoperica.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Peta lab vezba/stoperica_2/stoperica.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc stoperica.ucf -p xc3s1500-fg676-4 "stoperica.ngc" stoperica.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o stoperica_map.ncd stoperica.ngd stoperica.pcf 
+par -w -intstyle ise -ol high -t 1 stoperica_map.ncd stoperica.ncd stoperica.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml stoperica.twx stoperica.ncd -o stoperica.twr stoperica.pcf -ucf stoperica.ucf 
+bitgen -intstyle ise -f stoperica.ut stoperica.ncd 

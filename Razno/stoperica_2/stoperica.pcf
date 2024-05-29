@@ -1,0 +1,24 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue May 28 09:35:15 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Izlaz<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "Cont" LOCATE = SITE "Y10" LEVEL 1;
+COMP "Izlaz<1>" LOCATE = SITE "AD12" LEVEL 1;
+COMP "Izlaz<2>" LOCATE = SITE "AA11" LEVEL 1;
+COMP "Izlaz<3>" LOCATE = SITE "AA10" LEVEL 1;
+COMP "Izlaz<4>" LOCATE = SITE "AA9" LEVEL 1;
+COMP "Izlaz<5>" LOCATE = SITE "AB9" LEVEL 1;
+COMP "Izlaz<6>" LOCATE = SITE "AB8" LEVEL 1;
+COMP "Izlaz<7>" LOCATE = SITE "AB7" LEVEL 1;
+COMP "MaxCount<0>" LOCATE = SITE "W13" LEVEL 1;
+COMP "MaxCount<1>" LOCATE = SITE "W12" LEVEL 1;
+COMP "MaxCount<2>" LOCATE = SITE "W11" LEVEL 1;
+COMP "Stop" LOCATE = SITE "Y9" LEVEL 1;
+COMP "Start" LOCATE = SITE "Y8" LEVEL 1;
+COMP "Reset" LOCATE = SITE "Y11" LEVEL 1;
+COMP "CLK" LOCATE = SITE "AE14" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+
