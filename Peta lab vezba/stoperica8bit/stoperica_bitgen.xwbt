@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Samir\Desktop\VHDL\Peta lab vezba\stoperica8bit\stoperica.ncd
+OUTFILE=C:\Users\Samir\Desktop\VHDL\Peta lab vezba\stoperica8bit\stoperica.bit
+FAMILY=Spartan3
+PART=xc3s1500-4fg676
+WORKINGDIR=C:\Users\Samir\Desktop\VHDL\Peta lab vezba\stoperica8bit
+LICENSE=WebPack
+USER_INFO=212986343_0_0_637

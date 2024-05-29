@@ -1,0 +1,13 @@
+net iEN loc = Y8;
+net iCLK loc = AE14;
+net iRST loc = Y9;
+net iDIR loc = Y10;
+net "oCNT[3]": loc = AB7;
+net "oCNT[2]": loc = AB8;
+net "oCNT[1]": loc = AB9;
+net "oCNT[0]": loc = AA9;
+net "loadValue[3]" loc = Y12; 
+net "loadValue[2]" loc = W11;
+net "loadValue[1]" loc = W12;
+net "loadValue[0]" loc = W13;
+net iLd loc = Y11;
