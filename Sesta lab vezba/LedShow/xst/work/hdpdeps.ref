@@ -1,0 +1,16 @@
+V3 7
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/clock_divider.vhd" 2024/05/30.10:49:22 P.20131013
+EN work/Clock_Divider 1717059934 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/clock_divider.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Clock_Divider/Behavioral 1717059935 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/clock_divider.vhd" \
+      EN work/Clock_Divider 1717059934
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.vhd" 2024/05/30.11:05:25 P.20131013
+EN work/LedShow 1717059936 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LedShow/Behavioral 1717059937 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.vhd" \
+      EN work/LedShow 1717059936 CP clock_divider

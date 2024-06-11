@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "LedShow.ngc" LedShow.ngd  
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LedShow.ucf -p xc3s1500-fg676-4 "LedShow.ngc" LedShow.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o LedShow_map.ncd LedShow.ngd LedShow.pcf 
+par -w -intstyle ise -ol high -t 1 LedShow_map.ncd LedShow.ncd LedShow.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LedShow.twx LedShow.ncd -o LedShow.twr LedShow.pcf -ucf LedShow.ucf 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LedShow.ucf -p xc3s1500-fg676-4 "LedShow.ngc" LedShow.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o LedShow_map.ncd LedShow.ngd LedShow.pcf 
+par -w -intstyle ise -ol high -t 1 LedShow_map.ncd LedShow.ncd LedShow.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LedShow.twx LedShow.ncd -o LedShow.twr LedShow.pcf -ucf LedShow.ucf 
+bitgen -intstyle ise -f LedShow.ut LedShow.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LedShow.ucf -p xc3s1500-fg676-4 "LedShow.ngc" LedShow.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o LedShow_map.ncd LedShow.ngd LedShow.pcf 
+par -w -intstyle ise -ol high -t 1 LedShow_map.ncd LedShow.ncd LedShow.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LedShow.twx LedShow.ncd -o LedShow.twr LedShow.pcf -ucf LedShow.ucf 
+bitgen -intstyle ise -f LedShow.ut LedShow.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/LedShow/LedShow.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LedShow.ucf -p xc3s1500-fg676-4 "LedShow.ngc" LedShow.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o LedShow_map.ncd LedShow.ngd LedShow.pcf 
+par -w -intstyle ise -ol high -t 1 LedShow_map.ncd LedShow.ncd LedShow.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml LedShow.twx LedShow.ncd -o LedShow.twr LedShow.pcf -ucf LedShow.ucf 
+bitgen -intstyle ise -f LedShow.ut LedShow.ncd 

@@ -1,0 +1,21 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu May 30 11:05:51 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "inBLINK" LOCATE = SITE "Y11" LEVEL 1;
+COMP "inRL" LOCATE = SITE "Y9" LEVEL 1;
+COMP "inRR" LOCATE = SITE "Y10" LEVEL 1;
+COMP "inCLK" LOCATE = SITE "AE14" LEVEL 1;
+COMP "oLED<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "oLED<1>" LOCATE = SITE "AD12" LEVEL 1;
+COMP "oLED<2>" LOCATE = SITE "AA11" LEVEL 1;
+COMP "oLED<3>" LOCATE = SITE "AA10" LEVEL 1;
+COMP "oLED<4>" LOCATE = SITE "AA9" LEVEL 1;
+COMP "oLED<5>" LOCATE = SITE "AB9" LEVEL 1;
+COMP "oLED<6>" LOCATE = SITE "AB8" LEVEL 1;
+COMP "oLED<7>" LOCATE = SITE "AB7" LEVEL 1;
+COMP "inSTOP" LOCATE = SITE "Y8" LEVEL 1;
+NET "inCLK_BUFGP/IBUFG" BEL "inCLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

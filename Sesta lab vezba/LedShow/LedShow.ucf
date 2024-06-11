@@ -1,0 +1,13 @@
+net inCLK loc = AE14;
+net inSTOP loc = Y8;
+net inRL loc = Y9;
+net inRR loc = Y10;
+net inBLINK loc = Y11;
+net "oLED[7]" loc = AB7;
+net "oLED[6]" loc = AB8;
+net "oLED[5]" loc = AB9;
+net "oLED[4]" loc = AA9;
+net "oLED[3]" loc = AA10;
+net "oLED[2]" loc = AA11;
+net "oLED[1]" loc = AD12;
+net "oLED[0]" loc = Y13;
