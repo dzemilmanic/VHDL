@@ -1,0 +1,12 @@
+EN arithstruct NULL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.vhd" sub00/vhpl10 1717068242
+AR reg behavioral "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/Reg.vhd" sub00/vhpl03 1717068235
+AR clock_divider behavioral "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/clk_divider.vhd" sub00/vhpl01 1717068233
+AR arithstruct behavioral "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.vhd" sub00/vhpl11 1717068243
+AR comparator2bit behavioral "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/cmp.vhd" sub00/vhpl09 1717068241
+EN clock_divider NULL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/clk_divider.vhd" sub00/vhpl00 1717068232
+EN comparator2bit NULL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/cmp.vhd" sub00/vhpl08 1717068240
+AR twobitadder behavioral "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/TwoBitAdder.vhd" sub00/vhpl05 1717068237
+EN leftshifter2bit NULL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/shl.vhd" sub00/vhpl06 1717068238
+AR leftshifter2bit behavioral "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/shl.vhd" sub00/vhpl07 1717068239
+EN twobitadder NULL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/TwoBitAdder.vhd" sub00/vhpl04 1717068236
+EN reg NULL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/Reg.vhd" sub00/vhpl02 1717068234

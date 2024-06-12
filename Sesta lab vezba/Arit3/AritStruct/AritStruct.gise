@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="AritStruct.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ArithStruct.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ArithStruct.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ArithStruct.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ArithStruct.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ArithStruct.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ArithStruct.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ArithStruct.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="ArithStruct.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ArithStruct.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ArithStruct.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ArithStruct.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="ArithStruct.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ArithStruct.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ArithStruct.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ArithStruct.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ArithStruct.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ArithStruct.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ArithStruct.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="ArithStruct.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ArithStruct.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ArithStruct_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ArithStruct_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ArithStruct_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ArithStruct_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ArithStruct_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ArithStruct_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ArithStruct_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ArithStruct_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ArithStruct_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ArithStruct_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ArithStruct_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ArithStruct_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ArithStruct_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ArithStruct_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ArithStruct_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ArithStruct_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Reg.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Reg.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Reg.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="arithstruct.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="arithstruct.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="arithstruct.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1717062780" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1717062780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717062780" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="5380979087975701976" xil_pn:start_ts="1717062780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717062780" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-8188605378242010691" xil_pn:start_ts="1717062780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717062780" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1717062780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717062780" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5801356973839758368" xil_pn:start_ts="1717062780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717062780" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1429692520443753923" xil_pn:start_ts="1717062780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717062780" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="2826261620922454727" xil_pn:start_ts="1717062780">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717068240" xil_pn:in_ck="2114949244284563221" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-6135883333171212793" xil_pn:start_ts="1717068230">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="ArithStruct.lso"/>
+      <outfile xil_pn:name="ArithStruct.ngc"/>
+      <outfile xil_pn:name="ArithStruct.ngr"/>
+      <outfile xil_pn:name="ArithStruct.prj"/>
+      <outfile xil_pn:name="ArithStruct.stx"/>
+      <outfile xil_pn:name="ArithStruct.syr"/>
+      <outfile xil_pn:name="ArithStruct.xst"/>
+      <outfile xil_pn:name="ArithStruct_vhdl.prj"/>
+      <outfile xil_pn:name="ArithStruct_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1717067930" xil_pn:in_ck="1791761611042798473" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8259492412685483947" xil_pn:start_ts="1717067930">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717068247" xil_pn:in_ck="3627325955309011820" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="4940875072594697669" xil_pn:start_ts="1717068240">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ArithStruct.bld"/>
+      <outfile xil_pn:name="ArithStruct.ngd"/>
+      <outfile xil_pn:name="ArithStruct_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1717068251" xil_pn:in_ck="9101329338396354893" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-8741180932482148155" xil_pn:start_ts="1717068247">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ArithStruct.pcf"/>
+      <outfile xil_pn:name="ArithStruct_map.map"/>
+      <outfile xil_pn:name="ArithStruct_map.mrp"/>
+      <outfile xil_pn:name="ArithStruct_map.ncd"/>
+      <outfile xil_pn:name="ArithStruct_map.ngm"/>
+      <outfile xil_pn:name="ArithStruct_map.xrpt"/>
+      <outfile xil_pn:name="ArithStruct_summary.xml"/>
+      <outfile xil_pn:name="ArithStruct_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1717068270" xil_pn:in_ck="2844927253359402054" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-561354228862665646" xil_pn:start_ts="1717068251">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ArithStruct.ncd"/>
+      <outfile xil_pn:name="ArithStruct.pad"/>
+      <outfile xil_pn:name="ArithStruct.par"/>
+      <outfile xil_pn:name="ArithStruct.ptwx"/>
+      <outfile xil_pn:name="ArithStruct.unroutes"/>
+      <outfile xil_pn:name="ArithStruct.xpi"/>
+      <outfile xil_pn:name="ArithStruct_pad.csv"/>
+      <outfile xil_pn:name="ArithStruct_pad.txt"/>
+      <outfile xil_pn:name="ArithStruct_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1717068279" xil_pn:in_ck="1791761611042790848" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="-2672950586390118423" xil_pn:start_ts="1717068270">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ArithStruct.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="arithstruct.bgn"/>
+      <outfile xil_pn:name="arithstruct.bit"/>
+      <outfile xil_pn:name="arithstruct.drc"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1717068317" xil_pn:in_ck="-1283512398633580598" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-6745644827150672321" xil_pn:start_ts="1717068316">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1717068270" xil_pn:in_ck="5955901645539582281" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1717068266">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ArithStruct.twr"/>
+      <outfile xil_pn:name="ArithStruct.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

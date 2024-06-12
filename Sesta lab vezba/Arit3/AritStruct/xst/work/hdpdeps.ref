@@ -1,0 +1,54 @@
+V3 32
+FL "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.vhd" 2024/05/30.12:12:26 P.20131013
+FL "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/clk_divider.vhd" 2024/05/30.12:00:37 P.20131013
+FL "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/clock_divider.vhd" 2024/05/30.11:48:43 P.20131013
+FL "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/Comparator2bit.vhd" 2024/05/30.11:52:56 P.20131013
+FL "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/LeftShifter2bit.vhd" 2024/05/30.12:14:12 P.20131013
+FL "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/Reg.vhd" 2024/05/30.12:09:53 P.20131013
+FL "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/TwoBitAdder.vhd" 2024/05/30.11:51:46 P.20131013
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.vhd" 2024/05/30.13:09:45 P.20131013
+EN work/ArithStruct 1717068242 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/ArithStruct/Behavioral 1717068243 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.vhd" \
+      EN work/ArithStruct 1717068242 CP clock_divider CP Reg CP TwoBitAdder \
+      CP LeftShifter2bit CP Comparator2bit
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/clk_divider.vhd" 2024/05/30.12:00:38 P.20131013
+EN work/clock_divider 1717068232 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/clk_divider.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clock_divider/Behavioral 1717068233 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/clk_divider.vhd" \
+      EN work/clock_divider 1717068232
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/cmp.vhd" 2024/05/30.13:11:43 P.20131013
+EN work/Comparator2bit 1717068240 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/cmp.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Comparator2bit/Behavioral 1717068241 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/cmp.vhd" \
+      EN work/Comparator2bit 1717068240
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/Comparator2bit.vhd" 2024/05/30.12:51:02 P.20131013
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/LeftShifter2bit.vhd" 2024/05/30.12:51:20 P.20131013
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/Reg.vhd" 2024/05/30.13:07:48 P.20131013
+EN work/Reg 1717068234 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/Reg.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Reg/Behavioral 1717068235 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/Reg.vhd" \
+      EN work/Reg 1717068234
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/shl.vhd" 2024/05/30.13:12:36 P.20131013
+EN work/LeftShifter2bit 1717068238 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/shl.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/LeftShifter2bit/Behavioral 1717068239 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/shl.vhd" \
+      EN work/LeftShifter2bit 1717068238
+FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/TwoBitAdder.vhd" 2024/05/30.13:23:47 P.20131013
+EN work/TwoBitAdder 1717068236 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/TwoBitAdder.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/TwoBitAdder/Behavioral 1717068237 \
+      FL "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/TwoBitAdder.vhd" \
+      EN work/TwoBitAdder 1717068236

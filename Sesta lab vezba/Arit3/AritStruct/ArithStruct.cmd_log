@@ -1,0 +1,86 @@
+xst -intstyle ise -ifn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.xst" -ofn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf 
+xst -intstyle ise -ifn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.xst" -ofn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+xst -intstyle ise -ifn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.xst" -ofn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.syr" 
+xst -intstyle ise -ifn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.xst" -ofn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+xst -intstyle ise -ifn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.xst" -ofn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+xst -intstyle ise -ifn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.xst" -ofn "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.xst" -ofn "C:/Users/Samir/Desktop/VHDL/Sesta lab vezba/Arit3/AritStruct/ArithStruct.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ArithStruct.ucf -p xc3s1500-fg676-4 "ArithStruct.ngc" ArithStruct.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ArithStruct_map.ncd ArithStruct.ngd ArithStruct.pcf 
+par -w -intstyle ise -ol high -t 1 ArithStruct_map.ncd ArithStruct.ncd ArithStruct.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ArithStruct.twx ArithStruct.ncd -o ArithStruct.twr ArithStruct.pcf -ucf ArithStruct.ucf 
+bitgen -intstyle ise -f ArithStruct.ut ArithStruct.ncd 

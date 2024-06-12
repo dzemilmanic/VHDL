@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu May 30 11:55:47 2024
+# Process ID: 8812
+# Log file: C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -2982 day(s)
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/pa.fromNetlist.tcl}
+# create_project -name AritStruct -dir "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/planAhead_run_1" -part xc3s1500fg676-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "ArithStruct.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.ucf' to fileset 'constrs_1'
+# add_files [list {ArithStruct.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s1500fg676-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design ArithStruct.ngc ...
+WARNING:NetListWriters:298 - No output is written to ArithStruct.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file ArithStruct.edif ...
+ngc2edif: Total memory usage is 4310140 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/AritStruct.data/cache/ArithStruct_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/AritStruct.data/cache/ArithStruct_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1500/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1500/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1500/fg676/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/xc3s1500/fg676/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3/spartan3/spartan3-4.lib.
+Parsing UCF File [C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.ucf]
+Finished Parsing UCF File [C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/ArithStruct.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 4c000ac8
+link_design: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 559.965 ; gain = 139.645
+startgroup
+set_property package_pin Y8 [get_ports {inR1[1]}]
+endgroup
+startgroup
+set_property package_pin Y9 [get_ports {inR1[0]}]
+endgroup
+startgroup
+set_property package_pin Y10 [get_ports {inR2[1]}]
+endgroup
+startgroup
+set_property package_pin Y11 [get_ports {inR2[0]}]
+endgroup
+startgroup
+set_property package_pin AB8 [get_ports {RESULT[2]}]
+endgroup
+startgroup
+set_property package_pin AB7 [get_ports {RESULT[2]}]
+endgroup
+startgroup
+set_property package_pin AB8 [get_ports {RESULT[1]}]
+endgroup
+startgroup
+set_property package_pin AB9 [get_ports {RESULT[0]}]
+endgroup
+startgroup
+set_property package_pin AE14 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin Y12 [get_ports SHL_EN]
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct\planAhead_pid8812.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu May 30 11:57:57 2024...
+INFO: [Common 17-83] Releasing license: PlanAhead

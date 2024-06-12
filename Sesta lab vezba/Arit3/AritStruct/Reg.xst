@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/xst"
+elaborate
+-ifn Reg.prj
+-ifmt mixed

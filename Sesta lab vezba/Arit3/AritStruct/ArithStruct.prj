@@ -1,0 +1,6 @@
+vhdl work "TwoBitAdder.vhd"
+vhdl work "shl.vhd"
+vhdl work "Reg.vhd"
+vhdl work "cmp.vhd"
+vhdl work "clk_divider.vhd"
+vhdl work "ArithStruct.vhd"

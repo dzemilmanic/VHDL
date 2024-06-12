@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu May 30 11:55:47 2024
+# Process ID: 8812
+# Log file: C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Korisnik/OneDrive/Desktop/Xillinx share/AritStruct/pa.fromNetlist.tcl}
+startgroup
+set_property package_pin Y8 [get_ports {inR1[1]}]
+endgroup
+startgroup
+set_property package_pin Y9 [get_ports {inR1[0]}]
+endgroup
+startgroup
+set_property package_pin Y10 [get_ports {inR2[1]}]
+endgroup
+startgroup
+set_property package_pin Y11 [get_ports {inR2[0]}]
+endgroup
+startgroup
+set_property package_pin AB8 [get_ports {RESULT[2]}]
+endgroup
+startgroup
+set_property package_pin AB7 [get_ports {RESULT[2]}]
+endgroup
+startgroup
+set_property package_pin AB8 [get_ports {RESULT[1]}]
+endgroup
+startgroup
+set_property package_pin AB9 [get_ports {RESULT[0]}]
+endgroup
+startgroup
+set_property package_pin AE14 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin Y12 [get_ports SHL_EN]
+endgroup
+save_constraints
