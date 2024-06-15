@@ -1,0 +1,484 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Reading design: LedBrightness.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LedBrightness.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LedBrightness"
+Output Format                      : NGC
+Target Device                      : xc3s1500-4-fg676
+
+---- Source Options
+Top Module Name                    : LedBrightness
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Clock_Divider.vhd" in Library work.
+Entity <Clock_Divider> compiled.
+Entity <Clock_Divider> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Pwm_generator.vhd" in Library work.
+Entity <Pwm_generator> compiled.
+Entity <Pwm_generator> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/LedBrightness.vhd" in Library work.
+Architecture behavioral of Entity ledbrightness is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <LedBrightness> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Clock_Divider> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <PWM_Generator> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <LedBrightness> in library <work> (Architecture <behavioral>).
+Entity <LedBrightness> analyzed. Unit <LedBrightness> generated.
+
+Analyzing Entity <Clock_Divider> in library <work> (Architecture <Behavioral>).
+Entity <Clock_Divider> analyzed. Unit <Clock_Divider> generated.
+
+Analyzing Entity <PWM_Generator> in library <work> (Architecture <Behavioral>).
+Entity <PWM_Generator> analyzed. Unit <PWM_Generator> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Clock_Divider>.
+    Related source file is "C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Clock_Divider.vhd".
+    Found 32-bit up counter for signal <counter>.
+    Found 1-bit register for signal <slow_clk>.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+Unit <Clock_Divider> synthesized.
+
+
+Synthesizing Unit <PWM_Generator>.
+    Related source file is "C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Pwm_generator.vhd".
+    Found 1-bit register for signal <pwm_out>.
+    Found 8-bit up counter for signal <counter>.
+    Found 8-bit comparator less for signal <pwm_out$cmp_lt0000> created at line 52.
+    Summary:
+	inferred   1 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <PWM_Generator> synthesized.
+
+
+Synthesizing Unit <LedBrightness>.
+    Related source file is "C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/LedBrightness.vhd".
+    Found 8x64-bit ROM for signal <duty_cycles>.
+    Found 3-bit register for signal <state>.
+    Found 3-bit adder for signal <state$addsub0000> created at line 74.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   3 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <LedBrightness> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x64-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 3-bit adder                                           : 1
+# Counters                                             : 9
+ 32-bit up counter                                     : 1
+ 8-bit up counter                                      : 8
+# Registers                                            : 10
+ 1-bit register                                        : 9
+ 3-bit register                                        : 1
+# Comparators                                          : 8
+ 8-bit comparator less                                 : 8
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 8x64-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 3-bit adder                                           : 1
+# Counters                                             : 9
+ 32-bit up counter                                     : 1
+ 8-bit up counter                                      : 8
+# Registers                                            : 12
+ Flip-Flops                                            : 12
+# Comparators                                          : 8
+ 8-bit comparator less                                 : 8
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2146 - In block <LedBrightness>, Counter <gen_pwm[7].U2/counter> <gen_pwm[6].U2/counter> <gen_pwm[5].U2/counter> <gen_pwm[3].U2/counter> <gen_pwm[4].U2/counter> <gen_pwm[2].U2/counter> <gen_pwm[1].U2/counter> <gen_pwm[0].U2/counter> are equivalent, XST will keep only <gen_pwm[7].U2/counter>.
+
+Optimizing unit <LedBrightness> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LedBrightness, actual ratio is 0.
+FlipFlop state_0 has been replicated 1 time(s)
+FlipFlop state_1 has been replicated 2 time(s)
+FlipFlop state_2 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 56
+ Flip-Flops                                            : 56
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : LedBrightness.ngr
+Top Level Output File Name         : LedBrightness
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 11
+
+Cell Usage :
+# BELS                             : 284
+#      GND                         : 1
+#      INV                         : 11
+#      LUT1                        : 38
+#      LUT2                        : 19
+#      LUT3                        : 11
+#      LUT4                        : 53
+#      MUXCY                       : 110
+#      VCC                         : 1
+#      XORCY                       : 40
+# FlipFlops/Latches                : 56
+#      FDC                         : 23
+#      FDE                         : 1
+#      FDR                         : 32
+# Clock Buffers                    : 2
+#      BUFG                        : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 10
+#      IBUF                        : 2
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s1500fg676-4 
+
+ Number of Slices:                       66  out of  13312     0%  
+ Number of Slice Flip Flops:             56  out of  26624     0%  
+ Number of 4 input LUTs:                132  out of  26624     0%  
+ Number of IOs:                          11
+ Number of bonded IOBs:                  11  out of    487     2%  
+ Number of GCLKs:                         2  out of      8    25%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk_divider/slow_clk1              | BUFG                   | 23    |
+clk                                | BUFGP                  | 33    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+reset                              | IBUF                   | 23    |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 6.862ns (Maximum Frequency: 145.728MHz)
+   Minimum input arrival time before clock: 3.058ns
+   Maximum output required time after clock: 8.712ns
+   Maximum combinational path delay: 9.300ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk_divider/slow_clk1'
+  Clock period: 6.862ns (frequency: 145.728MHz)
+  Total number of paths / destination ports: 340 / 23
+-------------------------------------------------------------------------
+Delay:               6.862ns (Levels of Logic = 10)
+  Source:            state_2_1 (FF)
+  Destination:       gen_pwm[7].U2/pwm_out (FF)
+  Source Clock:      clk_divider/slow_clk1 rising
+  Destination Clock: clk_divider/slow_clk1 rising
+
+  Data Path: state_2_1 to gen_pwm[7].U2/pwm_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q             32   0.720   2.048  state_2_1 (state_2_1)
+     LUT4:I1->O            1   0.551   0.000  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_lut<0> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<0> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<1> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<2> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<3> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<4> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<5> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<6> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<6>)
+     MUXCY:CI->O           1   0.303   0.801  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<7> (gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<7>)
+     INV:I->O              1   0.551   0.801  gen_pwm[2].U2/Mcompar_pwm_out_cmp_lt0000_cy<7>_inv_INV_0 (gen_pwm[2].U2/pwm_out_cmp_lt0000)
+     FDC:D                     0.203          gen_pwm[2].U2/pwm_out
+    ----------------------------------------
+    Total                      6.862ns (3.212ns logic, 3.650ns route)
+                                       (46.8% logic, 53.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 6.537ns (frequency: 152.979MHz)
+  Total number of paths / destination ports: 1585 / 66
+-------------------------------------------------------------------------
+Delay:               6.537ns (Levels of Logic = 9)
+  Source:            clk_divider/counter_8 (FF)
+  Destination:       clk_divider/counter_0 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: clk_divider/counter_8 to clk_divider/counter_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              2   0.720   1.216  clk_divider/counter_8 (clk_divider/counter_8)
+     LUT4:I0->O            1   0.551   0.000  clk_divider/slow_clk_cmp_eq0000_wg_lut<0> (clk_divider/slow_clk_cmp_eq0000_wg_lut<0>)
+     MUXCY:S->O            1   0.500   0.000  clk_divider/slow_clk_cmp_eq0000_wg_cy<0> (clk_divider/slow_clk_cmp_eq0000_wg_cy<0>)
+     MUXCY:CI->O           1   0.064   0.000  clk_divider/slow_clk_cmp_eq0000_wg_cy<1> (clk_divider/slow_clk_cmp_eq0000_wg_cy<1>)
+     MUXCY:CI->O           1   0.064   0.000  clk_divider/slow_clk_cmp_eq0000_wg_cy<2> (clk_divider/slow_clk_cmp_eq0000_wg_cy<2>)
+     MUXCY:CI->O           1   0.064   0.000  clk_divider/slow_clk_cmp_eq0000_wg_cy<3> (clk_divider/slow_clk_cmp_eq0000_wg_cy<3>)
+     MUXCY:CI->O           1   0.064   0.000  clk_divider/slow_clk_cmp_eq0000_wg_cy<4> (clk_divider/slow_clk_cmp_eq0000_wg_cy<4>)
+     MUXCY:CI->O           1   0.064   0.000  clk_divider/slow_clk_cmp_eq0000_wg_cy<5> (clk_divider/slow_clk_cmp_eq0000_wg_cy<5>)
+     MUXCY:CI->O           1   0.064   0.000  clk_divider/slow_clk_cmp_eq0000_wg_cy<6> (clk_divider/slow_clk_cmp_eq0000_wg_cy<6>)
+     MUXCY:CI->O          33   0.281   1.859  clk_divider/slow_clk_cmp_eq0000_wg_cy<7> (clk_divider/slow_clk_cmp_eq0000)
+     FDR:R                     1.026          clk_divider/counter_0
+    ----------------------------------------
+    Total                      6.537ns (3.462ns logic, 3.075ns route)
+                                       (53.0% logic, 47.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_divider/slow_clk1'
+  Total number of paths / destination ports: 7 / 7
+-------------------------------------------------------------------------
+Offset:              3.058ns (Levels of Logic = 2)
+  Source:            LOn (PAD)
+  Destination:       state_0 (FF)
+  Destination Clock: clk_divider/slow_clk1 rising
+
+  Data Path: LOn to state_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   0.821   1.483  LOn_IBUF (LOn_IBUF)
+     LUT2:I0->O            2   0.551   0.000  state_mux0002<2>1 (state_mux0002<2>)
+     FDC:D                     0.203          state_0
+    ----------------------------------------
+    Total                      3.058ns (1.575ns logic, 1.483ns route)
+                                       (51.5% logic, 48.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_divider/slow_clk1'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              8.712ns (Levels of Logic = 2)
+  Source:            gen_pwm[7].U2/pwm_out (FF)
+  Destination:       LOut<7> (PAD)
+  Source Clock:      clk_divider/slow_clk1 rising
+
+  Data Path: gen_pwm[7].U2/pwm_out to LOut<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.720   0.996  gen_pwm[7].U2/pwm_out (gen_pwm[7].U2/pwm_out)
+     LUT2:I1->O            1   0.551   0.801  LOut<7>1 (LOut_7_OBUF)
+     OBUF:I->O                 5.644          LOut_7_OBUF (LOut<7>)
+    ----------------------------------------
+    Total                      8.712ns (6.915ns logic, 1.797ns route)
+                                       (79.4% logic, 20.6% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Delay:               9.300ns (Levels of Logic = 3)
+  Source:            LOn (PAD)
+  Destination:       LOut<7> (PAD)
+
+  Data Path: LOn to LOut<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            11   0.821   1.483  LOn_IBUF (LOn_IBUF)
+     LUT2:I0->O            1   0.551   0.801  LOut<7>1 (LOut_7_OBUF)
+     OBUF:I->O                 5.644          LOut_7_OBUF (LOut<7>)
+    ----------------------------------------
+    Total                      9.300ns (7.016ns logic, 2.284ns route)
+                                       (75.4% logic, 24.6% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 7.13 secs
+ 
+--> 
+
+Total memory usage is 4514980 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

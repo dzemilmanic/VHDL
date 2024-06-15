@@ -1,0 +1,6 @@
+AR clock_divider behavioral C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Clock_Divider.vhd sub00/vhpl03 1717007724
+EN pwm_generator NULL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Pwm_generator.vhd sub00/vhpl04 1717007725
+EN clock_divider NULL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Clock_Divider.vhd sub00/vhpl02 1717007723
+AR ledbrightness behavioral C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/LedBrightness.vhd sub00/vhpl01 1717007728
+EN ledbrightness NULL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/LedBrightness.vhd sub00/vhpl00 1717007727
+AR pwm_generator behavioral C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Pwm_generator.vhd sub00/vhpl05 1717007726

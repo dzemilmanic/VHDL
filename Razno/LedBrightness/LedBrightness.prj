@@ -1,0 +1,3 @@
+vhdl work "Pwm_generator.vhd"
+vhdl work "Clock_Divider.vhd"
+vhdl work "LedBrightness.vhd"

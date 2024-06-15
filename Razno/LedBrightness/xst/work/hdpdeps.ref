@@ -1,0 +1,24 @@
+V3 11
+FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Clock_Divider.vhd 2024/05/29.20:33:10 P.20131013
+EN work/Clock_Divider 1717007723 \
+      FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Clock_Divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/Clock_Divider/Behavioral 1717007724 \
+      FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Clock_Divider.vhd \
+      EN work/Clock_Divider 1717007723
+FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/LedBrightness.vhd 2024/05/29.20:31:24 P.20131013
+EN work/LedBrightness 1717007727 \
+      FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/LedBrightness.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LedBrightness/Behavioral 1717007728 \
+      FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/LedBrightness.vhd \
+      EN work/LedBrightness 1717007727 CP Clock_Divider CP PWM_Generator
+FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Pwm_generator.vhd 2024/05/29.20:35:17 P.20131013
+EN work/Pwm_generator 1717007725 \
+      FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Pwm_generator.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/Pwm_generator/Behavioral 1717007726 \
+      FL C:/Users/Samir/Desktop/VHDL/Vezbanje/LedBrightness/Pwm_generator.vhd \
+      EN work/Pwm_generator 1717007725
