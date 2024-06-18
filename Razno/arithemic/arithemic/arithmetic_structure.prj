@@ -1,0 +1,6 @@
+vhdl work "shl.vhd"
+vhdl work "reg.vhd"
+vhdl work "control_unit.vhd"
+vhdl work "clock_divider.vhd"
+vhdl work "adder.vhd"
+vhdl work "arithemtic.vhd"

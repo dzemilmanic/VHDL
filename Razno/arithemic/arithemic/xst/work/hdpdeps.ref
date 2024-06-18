@@ -1,0 +1,49 @@
+V3 29
+FL /home/hamza/VHDL/arithemic/adder.vhd 2024/05/30.11:49:12 P.20131013
+FL /home/hamza/VHDL/arithemic/arithemtic.vhd 2024/05/30.11:51:53 P.20131013
+FL /home/hamza/VHDL/arithemic/clock_divider.vhd 2024/05/30.11:41:13 P.20131013
+FL /home/hamza/VHDL/arithemic/control_unit.vhd 2024/05/30.11:52:25 P.20131013
+FL /home/hamza/VHDL/arithemic/reg.vhd 2024/05/30.11:49:02 P.20131013
+FL /home/hamza/VHDL/arithemic/shl.vhd 2024/05/30.11:52:45 P.20131013
+FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/adder.vhd 2024/05/30.11:49:12 P.20131013
+EN work/adder 1717064000 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/adder.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder/Behavioral 1717064001 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/adder.vhd EN work/adder 1717064000
+EN work/arithmetic_structure 1717062790 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/arithmetic_structure/Behavioral 1717062791 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd \
+      EN work/arithmetic_structure 1717062790 CP clock_divider CP reg CP adder \
+      CP shl CP control_unit
+FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/clock_divider.vhd 2024/05/30.11:41:13 P.20131013
+EN work/clock_divider 1717063996 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/clock_divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clock_divider/Behavioral 1717063997 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/clock_divider.vhd \
+      EN work/clock_divider 1717063996
+FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/control_unit.vhd 2024/05/30.11:52:25 P.20131013
+EN work/control_unit 1717064004 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/control_unit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/control_unit/Behavioral 1717064005 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/control_unit.vhd \
+      EN work/control_unit 1717064004
+FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/reg.vhd 2024/05/30.11:49:02 P.20131013
+EN work/reg 1717063998 FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/reg.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/reg/Behavioral 1717063999 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/reg.vhd EN work/reg 1717063998
+FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/shl.vhd 2024/05/30.11:52:45 P.20131013
+EN work/shl 1717064002 FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/shl.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/shl/Behavioral 1717064003 \
+      FL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/shl.vhd EN work/shl 1717064002

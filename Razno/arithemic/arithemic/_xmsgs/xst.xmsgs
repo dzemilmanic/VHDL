@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/arithmetic_structure</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/arithemtic.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/arithmetic_structure/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/arithemtic.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/adder</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/adder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/adder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/adder/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/adder.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/adder.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clock_divider</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/clock_divider.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/clock_divider.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/clock_divider/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/clock_divider.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/clock_divider.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/control_unit</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/control_unit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/control_unit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/control_unit/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/control_unit.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/control_unit.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/reg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/reg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/reg/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/reg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/reg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/shl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/shl.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/shl.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/shl/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">/home/hamza/VHDL/arithemic/shl.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/shl.vhd</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd</arg>&quot; Line <arg fmt="%d" index="2">122</arg>. Parameter <arg fmt="%s" index="3">sR0_EN</arg> of mode <arg fmt="%s" index="4">in</arg> can not be associated with a formal <arg fmt="%s" index="5">port</arg> of mode <arg fmt="%s" index="6">out</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd</arg>&quot; Line <arg fmt="%d" index="2">123</arg>. Parameter <arg fmt="%s" index="3">sR1_EN</arg> of mode <arg fmt="%s" index="4">in</arg> can not be associated with a formal <arg fmt="%s" index="5">port</arg> of mode <arg fmt="%s" index="6">out</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd</arg>&quot; Line <arg fmt="%d" index="2">125</arg>. Parameter <arg fmt="%s" index="3">sSHL_EN</arg> of mode <arg fmt="%s" index="4">in</arg> can not be associated with a formal <arg fmt="%s" index="5">port</arg> of mode <arg fmt="%s" index="6">out</arg>.
+</msg>
+
+<msg type="error" file="HDLParsers" num="1411" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd</arg>&quot; Line <arg fmt="%d" index="2">126</arg>. Parameter <arg fmt="%s" index="3">sCMP_EN</arg> of mode <arg fmt="%s" index="4">in</arg> can not be associated with a formal <arg fmt="%s" index="5">port</arg> of mode <arg fmt="%s" index="6">out</arg>.
+</msg>
+
+</messages>
+

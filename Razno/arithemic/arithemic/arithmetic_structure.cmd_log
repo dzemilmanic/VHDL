@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/hamza/VHDL/arithemic/arithmetic_structure.xst" -ofn "/home/hamza/VHDL/arithemic/arithmetic_structure.syr" 
+xst -intstyle ise -ifn "/home/hamza/VHDL/arithemic/arithmetic_structure.xst" -ofn "/home/hamza/VHDL/arithemic/arithmetic_structure.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 arithmetic_structure.ngc arithmetic_structure.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc arithmetic_structure.ucf -p xc3s1500-fg676-4 arithmetic_structure.ngc arithmetic_structure.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o arithmetic_structure_map.ncd arithmetic_structure.ngd arithmetic_structure.pcf 
+par -w -intstyle ise -ol high -t 1 arithmetic_structure_map.ncd arithmetic_structure.ncd arithmetic_structure.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml arithmetic_structure.twx arithmetic_structure.ncd -o arithmetic_structure.twr arithmetic_structure.pcf -ucf arithmetic_structure.ucf 
+bitgen -intstyle ise -f arithmetic_structure.ut arithmetic_structure.ncd 
+xst -intstyle ise -ifn "/home/hamza/VHDL/arithemic/arithmetic_structure.xst" -ofn "/home/hamza/VHDL/arithemic/arithmetic_structure.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithmetic_structure.xst" -ofn "C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithmetic_structure.syr" 

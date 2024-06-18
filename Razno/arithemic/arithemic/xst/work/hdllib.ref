@@ -1,0 +1,12 @@
+EN adder NULL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/adder.vhd sub00/vhpl04 1717064000
+AR shl behavioral C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/shl.vhd sub00/vhpl07 1717064003
+AR reg behavioral C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/reg.vhd sub00/vhpl03 1717063999
+EN shl NULL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/shl.vhd sub00/vhpl06 1717064002
+AR clock_divider behavioral C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/clock_divider.vhd sub00/vhpl01 1717063997
+AR control_unit behavioral C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/control_unit.vhd sub00/vhpl09 1717064005
+EN clock_divider NULL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/clock_divider.vhd sub00/vhpl00 1717063996
+AR arithmetic_structure behavioral /home/hamza/VHDL/arithemic/arithemtic.vhd sub00/vhpl11 1717062791
+AR adder behavioral C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/adder.vhd sub00/vhpl05 1717064001
+EN control_unit NULL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/control_unit.vhd sub00/vhpl08 1717064004
+EN reg NULL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/reg.vhd sub00/vhpl02 1717063998
+EN arithmetic_structure NULL C:/Users/Samir/Desktop/VHDL/arithemic/arithemic/arithemtic.vhd sub00/vhpl10 1717064006

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/hamza/VHDL/arithemic/arithmetic_structure.ncd
+OUTFILE=/home/hamza/VHDL/arithemic/arithmetic_structure.bit
+FAMILY=Spartan3
+PART=xc3s1500-4fg676
+WORKINGDIR=/home/hamza/VHDL/arithemic
+LICENSE=WebPack
+USER_INFO=212994068_0_0_217
