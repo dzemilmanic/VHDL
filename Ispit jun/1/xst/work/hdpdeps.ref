@@ -1,0 +1,14 @@
+V3 7
+FL C:/Users/Samir/Desktop/VHDL/ispit2/clock_divider.vhd 2024/06/19.12:39:43 P.20131013
+EN work/clock_divider 1718794715 \
+      FL C:/Users/Samir/Desktop/VHDL/ispit2/clock_divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clock_divider/Behavioral 1718794716 \
+      FL C:/Users/Samir/Desktop/VHDL/ispit2/clock_divider.vhd \
+      EN work/clock_divider 1718794715
+FL C:/Users/Samir/Desktop/VHDL/ispit2/ispit2.vhd 2024/06/19.12:58:27 P.20131013
+EN work/ispit2 1718794717 FL C:/Users/Samir/Desktop/VHDL/ispit2/ispit2.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ispit2/Behavioral 1718794718 \
+      FL C:/Users/Samir/Desktop/VHDL/ispit2/ispit2.vhd EN work/ispit2 1718794717 \
+      CP clock_divider

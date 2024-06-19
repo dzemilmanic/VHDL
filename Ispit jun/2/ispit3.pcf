@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jun 19 13:48:51 2024
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "input<4>" LOCATE = SITE "Y11" LEVEL 1;
+COMP "input<5>" LOCATE = SITE "Y10" LEVEL 1;
+COMP "input<6>" LOCATE = SITE "Y9" LEVEL 1;
+COMP "input<7>" LOCATE = SITE "Y8" LEVEL 1;
+COMP "clk" LOCATE = SITE "AE14" LEVEL 1;
+COMP "output<0>" LOCATE = SITE "Y13" LEVEL 1;
+COMP "output<1>" LOCATE = SITE "AD12" LEVEL 1;
+COMP "output<2>" LOCATE = SITE "AA11" LEVEL 1;
+COMP "output<3>" LOCATE = SITE "AA10" LEVEL 1;
+COMP "output<4>" LOCATE = SITE "AA9" LEVEL 1;
+COMP "output<5>" LOCATE = SITE "AB9" LEVEL 1;
+COMP "output<6>" LOCATE = SITE "AB8" LEVEL 1;
+COMP "output<7>" LOCATE = SITE "AB7" LEVEL 1;
+COMP "sel" LOCATE = SITE "AA21" LEVEL 1;
+COMP "sel2" LOCATE = SITE "AA22" LEVEL 1;
+COMP "input<0>" LOCATE = SITE "W13" LEVEL 1;
+COMP "input<1>" LOCATE = SITE "W12" LEVEL 1;
+COMP "input<2>" LOCATE = SITE "W11" LEVEL 1;
+COMP "input<3>" LOCATE = SITE "Y12" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

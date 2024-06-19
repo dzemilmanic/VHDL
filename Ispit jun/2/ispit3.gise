@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ispit3.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ispit3.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="ispit3.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ispit3.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ispit3.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="ispit3.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ispit3.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ispit3.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ispit3.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ispit3.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ispit3.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="ispit3.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ispit3.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ispit3.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ispit3.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="ispit3.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ispit3.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ispit3.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ispit3.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ispit3.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ispit3.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ispit3.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="ispit3.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ispit3.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ispit3_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ispit3_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ispit3_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ispit3_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ispit3_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ispit3_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ispit3_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ispit3_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ispit3_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ispit3_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ispit3_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="ispit3_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ispit3_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ispit3_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ispit3_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ispit3_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1718795514" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1718795514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1718795514" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2821104821695740297" xil_pn:start_ts="1718795514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1718795514" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2885446660926809156" xil_pn:start_ts="1718795514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1718795514" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1718795514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1718795514" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-1168863010446291009" xil_pn:start_ts="1718795514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1718795514" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="1429692520443753923" xil_pn:start_ts="1718795514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1718795514" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-4041179499525144954" xil_pn:start_ts="1718795514">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1718797721" xil_pn:in_ck="5837948831036213070" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="-1317473722297331590" xil_pn:start_ts="1718797711">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="ispit3.lso"/>
+      <outfile xil_pn:name="ispit3.ngc"/>
+      <outfile xil_pn:name="ispit3.ngr"/>
+      <outfile xil_pn:name="ispit3.prj"/>
+      <outfile xil_pn:name="ispit3.stx"/>
+      <outfile xil_pn:name="ispit3.syr"/>
+      <outfile xil_pn:name="ispit3.xst"/>
+      <outfile xil_pn:name="ispit3_vhdl.prj"/>
+      <outfile xil_pn:name="ispit3_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1718796826" xil_pn:in_ck="5039856325024392" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-4614713170787191020" xil_pn:start_ts="1718796826">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1718797728" xil_pn:in_ck="-6774040124622073270" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8053377080256685668" xil_pn:start_ts="1718797721">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="ispit3.bld"/>
+      <outfile xil_pn:name="ispit3.ngd"/>
+      <outfile xil_pn:name="ispit3_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1718797733" xil_pn:in_ck="-6772508545636808821" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-8741180932482148155" xil_pn:start_ts="1718797728">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="ispit3.pcf"/>
+      <outfile xil_pn:name="ispit3_map.map"/>
+      <outfile xil_pn:name="ispit3_map.mrp"/>
+      <outfile xil_pn:name="ispit3_map.ncd"/>
+      <outfile xil_pn:name="ispit3_map.ngm"/>
+      <outfile xil_pn:name="ispit3_map.xrpt"/>
+      <outfile xil_pn:name="ispit3_summary.xml"/>
+      <outfile xil_pn:name="ispit3_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1718797749" xil_pn:in_ck="2244208914704965220" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-561354228862665646" xil_pn:start_ts="1718797733">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="ispit3.ncd"/>
+      <outfile xil_pn:name="ispit3.pad"/>
+      <outfile xil_pn:name="ispit3.par"/>
+      <outfile xil_pn:name="ispit3.ptwx"/>
+      <outfile xil_pn:name="ispit3.unroutes"/>
+      <outfile xil_pn:name="ispit3.xpi"/>
+      <outfile xil_pn:name="ispit3_pad.csv"/>
+      <outfile xil_pn:name="ispit3_pad.txt"/>
+      <outfile xil_pn:name="ispit3_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1718797757" xil_pn:in_ck="5039856325016767" xil_pn:name="TRANEXT_bitFile_spartan3" xil_pn:prop_ck="4026351017656627060" xil_pn:start_ts="1718797749">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="ispit3.bgn"/>
+      <outfile xil_pn:name="ispit3.bit"/>
+      <outfile xil_pn:name="ispit3.drc"/>
+      <outfile xil_pn:name="ispit3.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1718797758" xil_pn:in_ck="5039856325003913" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="-6745644827150672321" xil_pn:start_ts="1718797757">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1718797749" xil_pn:in_ck="-6974676971691716089" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1718797745">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="ispit3.twr"/>
+      <outfile xil_pn:name="ispit3.twx"/>
+    </transform>
+    <transform xil_pn:end_ts="1718795578" xil_pn:in_ck="5039856325016899" xil_pn:name="TRAN_createTimingConstraints" xil_pn:start_ts="1718795575">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.xst" -ofn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.xst" -ofn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.syr" 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.xst" -ofn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1500-fg676-4 ispit3.ngc ispit3.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ispit3.ucf -p xc3s1500-fg676-4 ispit3.ngc ispit3.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ispit3_map.ncd ispit3.ngd ispit3.pcf 
+par -w -intstyle ise -ol high -t 1 ispit3_map.ncd ispit3.ncd ispit3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ispit3.twx ispit3.ncd -o ispit3.twr ispit3.pcf -ucf ispit3.ucf 
+bitgen -intstyle ise -f ispit3.ut ispit3.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.xst" -ofn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ispit3.ucf -p xc3s1500-fg676-4 ispit3.ngc ispit3.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ispit3_map.ncd ispit3.ngd ispit3.pcf 
+par -w -intstyle ise -ol high -t 1 ispit3_map.ncd ispit3.ncd ispit3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ispit3.twx ispit3.ncd -o ispit3.twr ispit3.pcf -ucf ispit3.ucf 
+bitgen -intstyle ise -f ispit3.ut ispit3.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.xst" -ofn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ispit3.ucf -p xc3s1500-fg676-4 ispit3.ngc ispit3.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ispit3_map.ncd ispit3.ngd ispit3.pcf 
+par -w -intstyle ise -ol high -t 1 ispit3_map.ncd ispit3.ncd ispit3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ispit3.twx ispit3.ncd -o ispit3.twr ispit3.pcf -ucf ispit3.ucf 
+bitgen -intstyle ise -f ispit3.ut ispit3.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.xst" -ofn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ispit3.ucf -p xc3s1500-fg676-4 ispit3.ngc ispit3.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ispit3_map.ncd ispit3.ngd ispit3.pcf 
+par -w -intstyle ise -ol high -t 1 ispit3_map.ncd ispit3.ncd ispit3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ispit3.twx ispit3.ncd -o ispit3.twr ispit3.pcf -ucf ispit3.ucf 
+bitgen -intstyle ise -f ispit3.ut ispit3.ncd 
+xst -intstyle ise -ifn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.xst" -ofn "C:/Users/Samir/Desktop/VHDL/ispit3/ispit3.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ispit3.ucf -p xc3s1500-fg676-4 ispit3.ngc ispit3.ngd  
+map -intstyle ise -p xc3s1500-fg676-4 -cm area -ir off -pr off -c 100 -o ispit3_map.ncd ispit3.ngd ispit3.pcf 
+par -w -intstyle ise -ol high -t 1 ispit3_map.ncd ispit3.ncd ispit3.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ispit3.twx ispit3.ncd -o ispit3.twr ispit3.pcf -ucf ispit3.ucf 
+bitgen -intstyle ise -f ispit3.ut ispit3.ncd 
