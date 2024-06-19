@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLParsers" num="3236" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">74</arg>. Can not determine the &quot;others&quot; values in aggregate. (LRM 7.3.2.2)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3304" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">74</arg>. Can not determine the &quot;others&quot; values in aggregate. (LRM 7.3.2)
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. <arg fmt="%s" index="3">parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="901" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">75</arg>. Label <arg fmt="%s" index="3">Adder4bit_instance0</arg> is ignored.
+</msg>
+
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">76</arg>. <arg fmt="%s" index="3">+</arg> can not have such operands in this context.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3236" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. Can not determine the &quot;others&quot; values in aggregate. (LRM 7.3.2.2)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3304" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">80</arg>. Can not determine the &quot;others&quot; values in aggregate. (LRM 7.3.2)
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">81</arg>. <arg fmt="%s" index="3">parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="901" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">81</arg>. Label <arg fmt="%s" index="3">Adder4bit_instance1</arg> is ignored.
+</msg>
+
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">82</arg>. <arg fmt="%s" index="3">+</arg> can not have such operands in this context.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3236" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">86</arg>. Can not determine the &quot;others&quot; values in aggregate. (LRM 7.3.2.2)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3304" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">86</arg>. Can not determine the &quot;others&quot; values in aggregate. (LRM 7.3.2)
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">87</arg>. <arg fmt="%s" index="3">parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="901" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">87</arg>. Label <arg fmt="%s" index="3">Adder4bit_instance2</arg> is ignored.
+</msg>
+
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">88</arg>. <arg fmt="%s" index="3">+</arg> can not have such operands in this context.
+</msg>
+
+<msg type="error" file="HDLParsers" num="3236" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">92</arg>. Can not determine the &quot;others&quot; values in aggregate. (LRM 7.3.2.2)
+</msg>
+
+<msg type="error" file="HDLParsers" num="3304" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">92</arg>. Can not determine the &quot;others&quot; values in aggregate. (LRM 7.3.2)
+</msg>
+
+<msg type="error" file="HDLParsers" num="164" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">93</arg>. <arg fmt="%s" index="3">parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK</arg>
+</msg>
+
+<msg type="warning" file="HDLParsers" num="901" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">93</arg>. Label <arg fmt="%s" index="3">Adder4bit_instance3</arg> is ignored.
+</msg>
+
+<msg type="error" file="HDLParsers" num="808" delta="new" >&quot;<arg fmt="%s" index="1">C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd</arg>&quot; Line <arg fmt="%d" index="2">94</arg>. <arg fmt="%s" index="3">+</arg> can not have such operands in this context.
+</msg>
+
+</messages>
+

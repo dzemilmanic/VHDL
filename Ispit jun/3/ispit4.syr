@@ -1,0 +1,138 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: ispit4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ispit4.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ispit4"
+Output Format                      : NGC
+Target Device                      : xc3s1500-4-fg676
+
+---- Source Options
+Top Module Name                    : ispit4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Samir/Desktop/VHDL/ispit4/clock_divider.vhd" in Library work.
+Architecture behavioral of Entity clock_divider is up to date.
+Compiling vhdl file "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" in Library work.
+Entity <ispit4> compiled.
+ERROR:HDLParsers:3236 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 74. Can not determine the "others" values in aggregate. (LRM 7.3.2.2)
+ERROR:HDLParsers:3304 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 74. Can not determine the "others" values in aggregate. (LRM 7.3.2)
+ERROR:HDLParsers:164 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 75. parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK
+WARNING:HDLParsers:901 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 75. Label Adder4bit_instance0 is ignored.
+ERROR:HDLParsers:808 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 76. + can not have such operands in this context.
+ERROR:HDLParsers:3236 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 80. Can not determine the "others" values in aggregate. (LRM 7.3.2.2)
+ERROR:HDLParsers:3304 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 80. Can not determine the "others" values in aggregate. (LRM 7.3.2)
+ERROR:HDLParsers:164 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 81. parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK
+WARNING:HDLParsers:901 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 81. Label Adder4bit_instance1 is ignored.
+ERROR:HDLParsers:808 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 82. + can not have such operands in this context.
+ERROR:HDLParsers:3236 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 86. Can not determine the "others" values in aggregate. (LRM 7.3.2.2)
+ERROR:HDLParsers:3304 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 86. Can not determine the "others" values in aggregate. (LRM 7.3.2)
+ERROR:HDLParsers:164 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 87. parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK
+WARNING:HDLParsers:901 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 87. Label Adder4bit_instance2 is ignored.
+ERROR:HDLParsers:808 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 88. + can not have such operands in this context.
+ERROR:HDLParsers:3236 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 92. Can not determine the "others" values in aggregate. (LRM 7.3.2.2)
+ERROR:HDLParsers:3304 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 92. Can not determine the "others" values in aggregate. (LRM 7.3.2)
+ERROR:HDLParsers:164 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 93. parse error, unexpected PORT, expecting OPENPAR or TICK or LSQBRACK
+WARNING:HDLParsers:901 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 93. Label Adder4bit_instance3 is ignored.
+ERROR:HDLParsers:808 - "C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd" Line 94. + can not have such operands in this context.
+--> 
+
+Total memory usage is 4496432 kilobytes
+
+Number of errors   :   16 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

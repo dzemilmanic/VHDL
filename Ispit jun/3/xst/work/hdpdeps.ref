@@ -1,0 +1,19 @@
+V3 10
+FL C:/Users/Samir/Desktop/VHDL/ispit4/Adder4bit.vhd 2024/06/19.14:25:03 P.20131013
+EN work/Adder4bit 0 FL C:/Users/Samir/Desktop/VHDL/ispit4/Adder4bit.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/Adder4bit/Behavioral 0 \
+      FL C:/Users/Samir/Desktop/VHDL/ispit4/Adder4bit.vhd EN work/Adder4bit 0
+FL C:/Users/Samir/Desktop/VHDL/ispit4/clock_divider.vhd 2024/06/19.14:15:35 P.20131013
+EN work/clock_divider 1718799906 \
+      FL C:/Users/Samir/Desktop/VHDL/ispit4/clock_divider.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/clock_divider/Behavioral 1718799907 \
+      FL C:/Users/Samir/Desktop/VHDL/ispit4/clock_divider.vhd \
+      EN work/clock_divider 1718799906
+FL C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd 2024/06/19.14:11:12 P.20131013
+EN work/ispit4 0 FL C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ispit4/Behavioral 0 \
+      FL C:/Users/Samir/Desktop/VHDL/ispit4/ispit4.vhd EN work/ispit4 0 \
+      CP clock_divider

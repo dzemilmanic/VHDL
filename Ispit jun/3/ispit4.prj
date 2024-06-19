@@ -1,0 +1,3 @@
+vhdl work "clock_divider.vhd"
+vhdl work "Adder4bit.vhd"
+vhdl work "ispit4.vhd"
